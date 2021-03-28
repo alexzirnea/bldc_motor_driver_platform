@@ -1,0 +1,210 @@
+
+(EDIF
+  (rename SS26FL "SS26FL")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2021 02 22 15 45 35)
+      (dataOrigin "SnapEDA snapeda.comCopyright - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0")
+      (program "SnapEDA Converter")
+    )
+  )
+  (library
+    (rename SS26FL "SS26FL")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 254 -9) (unit DISTANCE))
+        (gridMap 1 1)
+      )
+      (figureGroup PINNAME
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (pathWidth 0)
+        (textHeight 4811)
+      )
+      (figureGroup PINNUMBER
+        (cornerType TRUNCATE)
+        (endType TRUNCATE)
+        (textHeight 9000)
+        (pathWidth 0)
+      )
+      (figureGroup PORT
+        (pathWidth 1000)
+        (textHeight 9000)
+      )
+      (figureGroup PARTBODY
+        (pathWidth 1000)
+        (borderWidth 1000)
+        (textHeight 6000)
+      )
+    )
+    (cell
+      (rename SS26FL "SS26FL")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "D")
+          (property (rename VALUE "Value") (string "SS26FL"))
+          (port
+            (rename K "K")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "1")
+            (property
+              (rename ORDER "Order")
+              (integer 0)
+              (owner "OrCAD")
+            )
+          )
+          (port
+            (rename A "A")
+            (property
+              (rename TYPE "Type")
+              (string "PAS")
+            )
+            (designator "2")
+            (property
+              (rename ORDER "Order")
+              (integer 1)
+              (owner "OrCAD")
+            )
+          )
+          (symbol
+            (boundingBox (rectangle (pt -20000 -5000) (pt 20000 5000)))
+            (portImplementation
+              (name K)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt 20000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt 20000 0)
+                    (pt 10000 0)
+                  )
+                )
+              )
+            )
+            (portImplementation
+              (name A)
+              (connectLocation
+                (figure PORT
+                  (dot
+                    (pt -20000 0)
+                  )
+                )
+              )
+              (figure PARTBODY
+                (path
+                  (pointList
+                    (pt -20000 0)
+                    (pt -10000 0)
+                  )
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -20000 10000))
+              )
+            )
+            (propertyDisplay VALUE
+              (display PARTBODY
+                (justify LOWERLEFT)
+                (orientation R0)
+                (origin (pt -20000 -15000))
+              )
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 -5000) (pt 5000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 0) (pt -5000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7500 5000) (pt 5000 5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 5000) (pt 5000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 5000) (pt -5000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -5000 0) (pt -5000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 0) (pt 5000 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 7500 5000) (pt 7500 4000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 5000 -5000) (pt 2500 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 2500 -4000) (pt 2500 -5000)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt -10000 0) (pt -5000 0)))
+            )
+            (figure PARTBODY
+              (path (pointList (pt 10000 0) (pt 5000 0)))
+            )
+            (property (rename PCB_Footprint "PCB Footprint") (string "DIO_SS26FL"))
+            (property
+              (rename Price "Price")
+              (string
+              (stringDisplay "None"))
+            )
+            (property
+              (rename Package "Package")
+              (string
+              (stringDisplay "SOD-123 FL-2 ON Semiconductor"))
+            )
+            (property
+              (rename MF "MF")
+              (string
+              (stringDisplay "ON Semiconductor"))
+            )
+            (property
+              (rename Description "Description")
+              (string
+              (stringDisplay "
+Diode Schottky 60V 2A Surface Mount SOD-123F
+"))
+            )
+            (property
+              (rename Availability "Availability")
+              (string
+              (stringDisplay "Good"))
+            )
+            (property
+              (rename MP "MP")
+              (string
+              (stringDisplay "SS26FL"))
+            )
+            (property
+              (rename Purchase_URL "Purchase_URL")
+              (string
+              (stringDisplay "https://pricing.snapeda.com/search/part/SS26FL/?ref=eda"))
+            )
+          )
+        )
+      )
+    )
+  )
+)

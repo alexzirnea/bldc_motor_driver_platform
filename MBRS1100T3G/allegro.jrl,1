@@ -1,0 +1,200 @@
+\t (00:53:37) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:53:37)     Journal start - Mon Feb 22 23:24:07 2021
+\t (00:53:37)         Host=SATELLITE User=Andrei Pid=4056 CPUs=4
+\t (00:53:37) CmdLine= D:\Programare si Proiectare\OrCAD\tools\pcb\bin\allegro.exe -orcad
+\t (00:53:37) 
+\d (00:53:37) Design opened: C:/Users/Andrei/Desktop/Capsule Proiect/MBRS1100T3G/DIOM5436X247N.dra
+\i (00:53:37) generaledit 
+\i (00:53:38) zoom in 1 
+\i (00:53:38) setwindow pcb
+\i (00:53:38) zoom in -1.3746 -0.1069
+\i (00:53:38) trapsize 764
+\i (00:53:38) zoom in 1 
+\i (00:53:38) setwindow pcb
+\i (00:53:38) zoom in -1.3745 -0.1069
+\i (00:53:38) trapsize 382
+\i (00:53:38) zoom in 1 
+\i (00:53:38) setwindow pcb
+\i (00:53:38) zoom in -1.3745 -0.1068
+\i (00:53:38) trapsize 191
+\i (00:53:38) zoom out 1 
+\i (00:53:38) setwindow pcb
+\i (00:53:38) zoom out -1.3974 0.0231
+\i (00:53:38) trapsize 382
+\i (00:53:39) zoom out 1 
+\i (00:53:39) setwindow pcb
+\i (00:53:39) zoom out -2.4361 0.5806
+\i (00:53:39) trapsize 764
+\i (00:53:40) color192 
+\i (00:53:41) setwindow cvf.dialog
+\i (00:53:41) cvf layer_mode
+\i (00:53:41) setwindow pcb
+\i (00:53:41) generaledit 
+\i (00:53:43) setwindow cvf.dialog
+\i (00:53:43) cvf layers_color package_geometry/silkscreen_top 1
+\i (00:53:45) cvf select_color_cell 81
+\i (00:53:46) cvf layers_color package_geometry/silkscreen_top 82
+\i (00:53:50) cvf apply
+\i (00:53:51) cvf okay
+\i (00:53:52) setwindow pcb
+\i (00:53:52) zoom out 1 
+\i (00:53:52) setwindow pcb
+\i (00:53:52) zoom out -1.1072 0.4889
+\i (00:53:52) trapsize 1528
+\i (00:53:52) zoom out 1 
+\i (00:53:52) setwindow pcb
+\i (00:53:52) zoom out -0.7712 1.7415
+\i (00:53:52) trapsize 3055
+\i (00:53:52) zoom in 1 
+\i (00:53:52) setwindow pcb
+\i (00:53:52) zoom in -10.0405 6.2825
+\i (00:53:52) trapsize 1528
+\i (00:53:52) zoom in 1 
+\i (00:53:52) setwindow pcb
+\i (00:53:52) zoom in -10.1015 6.2520
+\i (00:53:52) trapsize 764
+\i (00:53:53) zoom out 1 
+\i (00:53:53) setwindow pcb
+\i (00:53:53) zoom out -1.6696 2.4944
+\i (00:53:53) trapsize 1528
+\i (00:53:53) zoom out 1 
+\i (00:53:53) setwindow pcb
+\i (00:53:53) zoom out -0.9059 1.3946
+\i (00:53:53) trapsize 3055
+\i (00:53:54) zoom in 1 
+\i (00:53:54) setwindow pcb
+\i (00:53:54) zoom in 4.8919 -1.0495
+\i (00:53:54) trapsize 1528
+\i (00:53:54) zoom in 1 
+\i (00:53:54) setwindow pcb
+\i (00:53:54) zoom in -1.4319 0.9058
+\i (00:53:54) trapsize 764
+\i (00:53:54) zoom out 1 
+\i (00:53:54) setwindow pcb
+\i (00:53:54) zoom out -0.7292 0.1879
+\i (00:53:54) trapsize 1528
+\i (00:53:54) zoom out 1 
+\i (00:53:54) setwindow pcb
+\i (00:53:54) zoom out -0.7292 0.1878
+\i (00:53:54) trapsize 3055
+\i (00:53:55) zoom in 1 
+\i (00:53:55) setwindow pcb
+\i (00:53:55) zoom in -1.0958 -3.7837
+\i (00:53:55) trapsize 1528
+\i (00:53:55) zoom in 1 
+\i (00:53:55) setwindow pcb
+\i (00:53:55) zoom in -1.0958 -3.7836
+\i (00:53:55) trapsize 764
+\i (00:53:55) zoom in 1 
+\i (00:53:55) setwindow pcb
+\i (00:53:55) zoom in -1.2638 -0.8508
+\i (00:53:55) trapsize 382
+\i (00:53:56) zoom out 1 
+\i (00:53:56) setwindow pcb
+\i (00:53:56) zoom out -1.7679 -0.0259
+\i (00:53:56) trapsize 764
+\i (00:54:23) grid toggle 
+\i (00:54:23) generaledit 
+\i (00:54:26) define grid 
+\t (00:54:26) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:54:26) generaledit 
+\i (00:54:30) setwindow form.grid
+\i (00:54:30) FORM grid non_etch non_etch_x_grids 0.1 
+\i (00:54:33) FORM grid non_etch non_etch_y_grids 0.1 
+\i (00:54:35) FORM grid all_etch all_etch_x_grids 0.1 
+\i (00:54:38) FORM grid all_etch all_etch_y_grids 0.1 
+\i (00:54:38) FORM grid done  
+\i (00:54:39) setwindow pcb
+\i (00:54:39) zoom in 1 
+\i (00:54:39) setwindow pcb
+\i (00:54:39) zoom in 1.6232 -2.7448
+\i (00:54:39) trapsize 382
+\i (00:54:39) zoom in 1 
+\i (00:54:39) setwindow pcb
+\i (00:54:39) zoom in 1.6233 -2.6531
+\i (00:54:39) trapsize 191
+\i (00:54:40) zoom out 1 
+\i (00:54:40) setwindow pcb
+\i (00:54:40) zoom out 1.2605 -1.6182
+\i (00:54:40) trapsize 382
+\i (00:54:40) zoom out 1 
+\i (00:54:40) setwindow pcb
+\i (00:54:40) zoom out 1.2452 -1.5724
+\i (00:54:40) trapsize 764
+\i (00:54:40) zoom out 1 
+\i (00:54:40) setwindow pcb
+\i (00:54:40) zoom out 2.8644 -4.3372
+\t (00:54:40) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:54:40) trapsize 1528
+\i (00:54:41) zoom in 1 
+\i (00:54:41) setwindow pcb
+\i (00:54:41) zoom in -1.5348 1.3756
+\i (00:54:41) trapsize 764
+\i (00:54:41) zoom in 1 
+\i (00:54:41) setwindow pcb
+\i (00:54:41) zoom in -1.5348 1.3756
+\i (00:54:41) trapsize 382
+\i (00:54:58) show measure 
+\i (00:55:00) pick grid -1.0918 1.3603
+\t (00:55:00) last pick:  -1.1000 1.4000
+\i (00:55:06) pick grid 1.1154 1.4291
+\t (00:55:06) last pick:  1.1000 1.4000
+\i (00:55:12) pick grid -3.2991 1.4062
+\t (00:55:12) last pick:  -3.3000 1.4000
+\i (00:55:14) pick grid -1.1224 1.3985
+\t (00:55:14) last pick:  -1.1000 1.4000
+\i (00:55:30) pick grid -0.7100 1.0701
+\t (00:55:30) last pick:  -0.7000 1.1000
+\i (00:55:33) pick grid -0.7100 -1.1066
+\t (00:55:33) last pick:  -0.7000 -1.1000
+\i (00:56:19) pick grid -0.2288 -0.3734
+\t (00:56:19) last pick:  -0.2000 -0.4000
+\i (00:56:21) open 
+\e (00:56:22) Do you want to save the changes you made to DIOM5436X247N.dra?
+\i (00:56:23) fillin yes 
+\t (00:56:24) Symbol 'diom5436x247n.psm' created.
+\i (00:56:27) fillin "ps_r225_212_d250.dra"
+\t (00:56:27) Opening existing design...
+\i (00:56:27) trapsize 1527
+\d (00:56:28) Design opened: C:/Users/Andrei/Desktop/Capsule Proiect/MBRS1100T3G/ps_r225_212_d250.dra
+\i (00:56:28) generaledit 
+\i (00:56:28) zoom in 1 
+\i (00:56:28) setwindow pcb
+\i (00:56:28) zoom in -0.3208 -1.2067
+\i (00:56:28) trapsize 764
+\i (00:56:28) zoom in 1 
+\i (00:56:28) setwindow pcb
+\i (00:56:28) zoom in -3.8798 -1.1761
+\i (00:56:28) trapsize 382
+\i (00:56:29) zoom in 1 
+\i (00:56:29) setwindow pcb
+\i (00:56:29) zoom in -0.6110 -0.1069
+\i (00:56:29) trapsize 191
+\i (00:56:29) zoom in 1 
+\i (00:56:29) setwindow pcb
+\i (00:56:29) zoom in -0.6109 -0.1069
+\i (00:56:29) trapsize 95
+\i (00:56:29) zoom out 1 
+\i (00:56:29) setwindow pcb
+\i (00:56:29) zoom out -0.3932 -0.0381
+\i (00:56:29) trapsize 191
+\i (00:56:29) zoom out 1 
+\i (00:56:29) setwindow pcb
+\i (00:56:29) zoom out -0.3932 -0.0381
+\i (00:56:29) trapsize 382
+\i (00:56:30) zoom out 1 
+\i (00:56:30) setwindow pcb
+\i (00:56:30) zoom out -0.2633 0.0459
+\i (00:56:30) trapsize 764
+\i (00:56:31) zoom in 1 
+\i (00:56:31) setwindow pcb
+\i (00:56:31) zoom in 1.2221 -0.0152
+\i (00:56:31) trapsize 382
+\i (00:57:48) open 
+\e (00:57:49) Do you want to save the changes you made to ps_r225_212_d250.dra?
+\i (00:57:51) fillin no 
+\i (00:57:58) fillin "C:\Users\Andrei\Desktop\Capsule Proiect\MMSZ7V5T1G\SOD3716X135N.dra"
+\i (00:57:58) cd "C:\Users\Andrei\Desktop\Capsule Proiect\MMSZ7V5T1G"
+\t (00:57:58) Opening existing design...
+\i (00:57:58) trapsize 1527
+\t (00:57:59)     Journal end - Mon Feb 22 23:28:29 2021

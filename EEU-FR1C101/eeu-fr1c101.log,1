@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : EEU-FR1C101.dra                               )
+(    Software Version : 16.6-2015S059                                 )
+(    Date/Time        : Tue Mar 16 14:50:57 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/ionela/Desktop/EEU-FR1C101
+    Name      = eeu-fr1c101.psm
+    User      = ionela
+    Machine   = DESKTOP-KAV1SHF
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

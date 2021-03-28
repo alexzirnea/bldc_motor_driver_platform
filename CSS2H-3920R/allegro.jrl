@@ -1,0 +1,19 @@
+\t (00:00:03) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:03)     Journal start - Mon Mar 15 21:39:38 2021
+\t (00:00:03)         Host=DESKTOP-KAV1SHF User=ionela Pid=6040 CPUs=8
+\t (00:00:03) CmdLine= D:\IDEuri\OrCAD 16.6 Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:03) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/Users/ionela/Desktop/Capsule Proiect/CSS2H-3920R/CSS2H-3920R.dra
+\t (00:00:03) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
+\i (00:00:03) trapsize 36
+\i (00:00:03) trapsize 35
+\i (00:00:03) trapsize 37
+\i (00:00:03) trapsize 29
+\t (00:00:03) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
+\i (00:00:03) trapsize 29
+\i (00:00:04) generaledit 
+\i (00:00:11) about 
+\i (00:00:17) cdsdoc allegro allegrolaunch 
+\i (00:32:46) exit 
+\t (00:32:47)     Journal end - Mon Mar 15 22:12:21 2021

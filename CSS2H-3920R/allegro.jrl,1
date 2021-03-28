@@ -1,0 +1,47 @@
+\t (00:00:02) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:02)     Journal start - Mon Mar 15 21:08:16 2021
+\t (00:00:02)         Host=DESKTOP-KAV1SHF User=ionela Pid=3060 CPUs=8
+\t (00:00:02) CmdLine= D:\IDEuri\OrCAD 16.6 Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:02) 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/ionela/Desktop/Capsule Proiect/CSS2H-3920R/CSS2H-3920R.dra
+\t (00:00:03) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
+\i (00:00:03) trapsize 36
+\i (00:00:03) trapsize 35
+\i (00:00:03) trapsize 37
+\i (00:00:03) trapsize 29
+\t (00:00:03) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
+\i (00:00:03) trapsize 29
+\i (00:00:04) generaledit 
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -0.05 0.56
+\t (00:00:04) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:00:04) trapsize 15
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -5.65 0.56
+\i (00:00:04) trapsize 7
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in -5.65 0.56
+\i (00:00:04) trapsize 4
+\i (00:00:05) zoom out 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom out -4.46 0.64
+\i (00:00:05) trapsize 7
+\i (00:00:05) zoom out 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom out -4.45 0.64
+\i (00:00:05) trapsize 15
+\i (00:00:05) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -2.83 0.40
+\i (00:00:06) trapsize 7
+\i (00:00:06) show measure 
+\i (00:00:07) pick grid -3.76 -0.09
+\t (00:00:07) last pick:  -3.80 -0.10
+\i (00:00:09) pick grid 3.21 0.37
+\t (00:00:09) last pick:  3.20 0.40
+\i (00:00:11) exit 
+\t (00:00:11)     Journal end - Mon Mar 15 21:08:25 2021

@@ -1,0 +1,26 @@
+\t (00:00:07) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:07)     Journal start - Sun Feb 28 09:47:30 2021
+\t (00:00:07)         Host=SATELLITE User=Andrei Pid=1776 CPUs=4
+\t (00:00:07) CmdLine= D:\Programare si Proiectare\OrCAD\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:07) 
+\t (00:00:07) Starting new design...
+\i (00:00:08) trapsize 968
+\i (00:00:08) trapsize 942
+\i (00:00:08) trapsize 972
+\i (00:00:09) trapsize 810
+\i (00:00:09) trapsize 1731
+\i (00:00:10) generaledit 
+\i (00:00:16) open 
+\i (00:00:40) fillin "menu_cancel"
+\i (00:00:40) generaledit 
+\i (00:03:54) open 
+\i (00:04:24) fillin "D:\Programare si Proiectare\OrCAD\share\pcb\pcb_lib\symbols\soic8.dra"
+\i (00:04:24) cd "D:\Programare si Proiectare\OrCAD\share\pcb\pcb_lib\symbols"
+\t (00:04:24) Opening existing design...
+\i (00:04:26) fillin yes 
+\i (00:04:26) trapsize 511
+\i (00:04:26) trapsize 497
+\i (00:04:27) trapsize 511
+\i (00:04:27) trapsize 631
+\i (00:04:28) trapsize 1222
+\t (00:04:28)     Journal end - Sun Feb 28 09:51:51 2021

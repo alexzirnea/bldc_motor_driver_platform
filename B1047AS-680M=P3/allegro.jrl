@@ -1,0 +1,19 @@
+\t (00:00:02) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:02)     Journal start - Tue Mar 16 12:35:29 2021
+\t (00:00:02)         Host=DESKTOP-KAV1SHF User=ionela Pid=3028 CPUs=8
+\t (00:00:02) CmdLine= D:\IDEuri\OrCAD 16.6 Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:02) 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: C:/Users/ionela/Desktop/B1047AS-680M=P3/B1047AS-680M-P3.dra
+\i (00:00:02) trapsize 12
+\t (00:00:02) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:00:02) trapsize 13
+\t (00:00:03) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:00:03) trapsize 13
+\i (00:00:04) generaledit 
+\i (00:02:12) open 
+\i (00:02:14) fillin "menu_cancel"
+\i (00:02:14) generaledit 
+\i (00:02:15) new 
+\i (00:13:24) newdrawfillin "EEU-FR1C101.dra" "Package Symbol (Wizard)"
+\t (00:13:24)     Journal end - Tue Mar 16 12:48:51 2021

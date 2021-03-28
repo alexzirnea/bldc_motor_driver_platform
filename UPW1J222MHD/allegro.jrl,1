@@ -1,0 +1,104 @@
+\t (00:10:12) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:10:12)     Journal start - Tue Mar 16 10:55:55 2021
+\t (00:10:12)         Host=DESKTOP-KAV1SHF User=ionela Pid=12648 CPUs=8
+\t (00:10:12) CmdLine= D:\IDEuri\OrCAD 16.6 Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:10:12) 
+\d (00:10:12) Design opened: C:/Users/ionela/Desktop/Capsule TIE/UPW1J222MHD/UPW1J222MHD.dra
+\i (00:10:12) generaledit 
+\i (00:10:13) zoom in 1 
+\i (00:10:13) setwindow pcb
+\i (00:10:13) zoom in 560.30 531.36
+\t (00:10:13) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:10:13) trapsize 14
+\i (00:10:13) zoom out 1 
+\i (00:10:13) setwindow pcb
+\i (00:10:13) zoom out 561.03 533.04
+\t (00:10:13) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
+\i (00:10:13) trapsize 29
+\i (00:10:13) zoom out 1 
+\i (00:10:13) setwindow pcb
+\i (00:10:13) zoom out 560.85 533.44
+\t (00:10:13) Grids are drawn 0.80, 0.80 apart for enhanced viewability.
+\i (00:10:13) trapsize 58
+\i (00:10:14) zoom in 1 
+\i (00:10:14) setwindow pcb
+\i (00:10:14) zoom in 559.82 540.24
+\t (00:10:14) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
+\i (00:10:14) trapsize 29
+\i (00:10:14) zoom in 1 
+\i (00:10:14) setwindow pcb
+\i (00:10:14) zoom in 559.82 540.24
+\t (00:10:14) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:10:14) trapsize 14
+\i (00:10:15) zoom in 1 
+\i (00:10:15) setwindow pcb
+\i (00:10:15) zoom in 549.00 534.03
+\i (00:10:15) trapsize 7
+\i (00:10:15) zoom in 1 
+\i (00:10:15) setwindow pcb
+\i (00:10:15) zoom in 550.55 534.10
+\i (00:10:15) trapsize 4
+\i (00:10:18) zoom out 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom out 552.13 534.07
+\i (00:10:18) trapsize 7
+\i (00:10:18) zoom out 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom out 552.38 534.14
+\i (00:10:18) trapsize 14
+\i (00:10:18) zoom out 1 
+\i (00:10:18) setwindow pcb
+\i (00:10:18) zoom out 553.47 534.43
+\t (00:10:18) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
+\i (00:10:18) trapsize 29
+\i (00:10:20) zoom in 1 
+\i (00:10:20) setwindow pcb
+\i (00:10:20) zoom in 564.33 532.64
+\t (00:10:20) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:10:20) trapsize 14
+\i (00:10:20) zoom out 1 
+\i (00:10:20) setwindow pcb
+\i (00:10:20) zoom out 556.53 534.09
+\t (00:10:20) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
+\i (00:10:20) trapsize 29
+\i (00:10:21) zoom in 1 
+\i (00:10:21) setwindow pcb
+\i (00:10:21) zoom in 558.10 534.84
+\t (00:10:21) Grids are drawn 0.20, 0.20 apart for enhanced viewability.
+\i (00:10:21) trapsize 14
+\i (00:10:22) zoom out 1 
+\i (00:10:22) setwindow pcb
+\i (00:10:22) zoom out 553.77 534.67
+\t (00:10:22) Grids are drawn 0.40, 0.40 apart for enhanced viewability.
+\i (00:10:22) trapsize 29
+\i (00:10:23) zoom out 1 
+\i (00:10:23) setwindow pcb
+\i (00:10:23) zoom out 553.78 534.67
+\t (00:10:23) Grids are drawn 0.80, 0.80 apart for enhanced viewability.
+\i (00:10:23) trapsize 58
+\i (00:46:12) new 
+\i (00:46:14) newdrawfillin "menu_cancel"
+\i (00:46:14) generaledit 
+\i (00:46:16) open 
+\i (00:47:41) fillin "C:\Users\ionela\Desktop\Capsule Proiect\Capsule Generate\B1047AS100MP3.dra"
+\i (00:47:41) cd "C:\Users\ionela\Desktop\Capsule Proiect\Capsule Generate"
+\t (00:47:41) Opening existing design...
+\e (00:47:41) ERROR(SPMHDB-180): Design revision 17.x is newer than current program version.
+\e (00:47:41) ERROR(SPMHDB-180): Design revision 17.x is newer than current program version.
+\i (00:47:43) fillin confirm
+\t (00:47:43) Starting new design...
+\i (00:47:43) trapsize 1820
+\i (00:47:46) fillin "B1047AS100MP3.dra"
+\t (00:47:46) Opening existing design...
+\e (00:47:46) ERROR(SPMHDB-180): Design revision 17.x is newer than current program version.
+\e (00:47:46) ERROR(SPMHDB-180): Design revision 17.x is newer than current program version.
+\i (00:47:46) fillin confirm
+\t (00:47:46) Starting new design...
+\i (00:47:46) trapsize 1820
+\i (00:47:48) fillin "menu_cancel"
+\i (00:47:48) generaledit 
+\i (01:02:49) new 
+\e (01:02:49) Do you want to save the changes you made to unnamed?
+\i (01:02:50) fillin no 
+\i (01:03:29) newdrawfillin "B1047AS-680M-P3.dra" "Package Symbol (Wizard)"
+\t (01:03:29)     Journal end - Tue Mar 16 11:49:12 2021

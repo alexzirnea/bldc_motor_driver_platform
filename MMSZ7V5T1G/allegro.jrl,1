@@ -1,0 +1,243 @@
+\t (00:57:59) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:57:59)     Journal start - Mon Feb 22 23:28:29 2021
+\t (00:57:59)         Host=SATELLITE User=Andrei Pid=4056 CPUs=4
+\t (00:57:59) CmdLine= D:\Programare si Proiectare\OrCAD\tools\pcb\bin\allegro.exe -orcad
+\t (00:57:59) 
+\d (00:57:59) Design opened: C:/Users/Andrei/Desktop/Capsule Proiect/MMSZ7V5T1G/SOD3716X135N.dra
+\i (00:57:59) generaledit 
+\i (00:58:00) zoom in 1 
+\i (00:58:00) setwindow pcb
+\i (00:58:00) zoom in -1.6617 1.3289
+\i (00:58:00) trapsize 764
+\i (00:58:00) zoom in 1 
+\i (00:58:00) setwindow pcb
+\i (00:58:00) zoom in -1.6922 1.3137
+\i (00:58:00) trapsize 382
+\i (00:58:01) zoom in 1 
+\i (00:58:01) setwindow pcb
+\i (00:58:01) zoom in -0.6229 0.2215
+\i (00:58:01) trapsize 191
+\i (00:58:01) zoom out 1 
+\i (00:58:01) setwindow pcb
+\i (00:58:01) zoom out -0.5388 0.1299
+\i (00:58:01) trapsize 382
+\i (00:58:02) zoom in 1 
+\i (00:58:02) setwindow pcb
+\i (00:58:02) zoom in 0.1638 -0.0382
+\i (00:58:02) trapsize 191
+\i (00:58:03) zoom in 1 
+\i (00:58:03) setwindow pcb
+\i (00:58:03) zoom in 0.1371 -0.0534
+\i (00:58:03) trapsize 95
+\i (00:58:04) zoom out 1 
+\i (00:58:04) setwindow pcb
+\i (00:58:04) zoom out 0.1199 -0.0515
+\i (00:58:04) trapsize 191
+\i (00:58:04) zoom out 1 
+\i (00:58:04) setwindow pcb
+\i (00:58:04) zoom out 0.1046 0.0287
+\i (00:58:04) trapsize 382
+\i (00:58:11) zoom out 1 
+\i (00:58:11) setwindow pcb
+\i (00:58:11) zoom out -0.2390 -0.2844
+\i (00:58:11) trapsize 764
+\i (00:58:11) zoom out 1 
+\i (00:58:11) setwindow pcb
+\i (00:58:11) zoom out -0.2391 -0.2845
+\i (00:58:11) trapsize 1528
+\i (00:58:12) zoom in 1 
+\i (00:58:12) setwindow pcb
+\i (00:58:12) zoom in -1.4000 -0.7427
+\i (00:58:12) trapsize 764
+\i (00:58:12) zoom out 1 
+\i (00:58:12) setwindow pcb
+\i (00:58:12) zoom out -1.3847 -0.6969
+\i (00:58:12) trapsize 1528
+\i (00:58:12) zoom in 1 
+\i (00:58:12) setwindow pcb
+\i (00:58:12) zoom in -1.3235 -0.5441
+\i (00:58:12) trapsize 764
+\i (00:58:12) zoom in 1 
+\i (00:58:12) setwindow pcb
+\i (00:58:12) zoom in -1.3235 -0.5441
+\i (00:58:12) trapsize 382
+\i (00:58:13) zoom out 1 
+\i (00:58:13) setwindow pcb
+\i (00:58:13) zoom out -1.3082 -0.5059
+\i (00:58:13) trapsize 764
+\i (00:58:13) zoom out 1 
+\i (00:58:13) setwindow pcb
+\i (00:58:13) zoom out -1.3082 -0.5059
+\i (00:58:13) trapsize 1528
+\i (00:58:13) zoom in 1 
+\i (00:58:13) setwindow pcb
+\i (00:58:13) zoom in 0.7387 -1.6058
+\i (00:58:13) trapsize 764
+\i (00:58:14) zoom in 1 
+\i (00:58:14) setwindow pcb
+\i (00:58:14) zoom in 0.7388 -1.6210
+\i (00:58:14) trapsize 382
+\i (00:58:16) grid toggle 
+\i (00:58:16) generaledit 
+\i (00:58:20) zoom out 1 
+\i (00:58:20) setwindow pcb
+\i (00:58:20) zoom out -1.6364 0.4793
+\i (00:58:20) trapsize 764
+\i (00:58:21) zoom in 1 
+\i (00:58:21) setwindow pcb
+\i (00:58:21) zoom in -3.1181 0.4335
+\i (00:58:21) trapsize 382
+\i (00:58:22) zoom in 1 
+\i (00:58:22) setwindow pcb
+\i (00:58:22) zoom in -3.1104 0.4564
+\i (00:58:22) trapsize 191
+\i (00:58:22) zoom out 1 
+\i (00:58:22) setwindow pcb
+\i (00:58:22) zoom out -2.1710 0.4297
+\i (00:58:22) trapsize 382
+\i (00:58:23) zoom in 1 
+\i (00:58:23) setwindow pcb
+\i (00:58:23) zoom in 0.1203 0.3152
+\i (00:58:23) trapsize 191
+\i (00:58:23) zoom out 1 
+\i (00:58:23) setwindow pcb
+\i (00:58:23) zoom out 0.1203 0.3152
+\i (00:58:23) trapsize 382
+\i (00:58:26) grid toggle 
+\i (00:58:26) generaledit 
+\i (00:58:27) zoom out 1 
+\i (00:58:27) setwindow pcb
+\i (00:58:27) zoom out 0.3495 0.9874
+\i (00:58:27) trapsize 764
+\i (00:58:28) grid toggle 
+\i (00:58:28) generaledit 
+\i (00:58:32) define grid 
+\t (00:58:32) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:58:32) generaledit 
+\i (00:58:36) setwindow form.grid
+\i (00:58:36) FORM grid non_etch non_etch_x_grids 0.1 
+\i (00:58:40) FORM grid non_etch non_etch_y_grids 0.1 
+\i (00:58:42) FORM grid all_etch all_etch_x_grids 0.1 
+\i (00:58:45) FORM grid all_etch all_etch_y_grids 0.1 
+\i (00:58:45) FORM grid done  
+\i (00:58:46) setwindow pcb
+\i (00:58:46) zoom in 1 
+\i (00:58:46) setwindow pcb
+\i (00:58:46) zoom in 0.2120 -0.8915
+\i (00:58:46) trapsize 382
+\i (00:58:46) zoom in 1 
+\i (00:58:46) setwindow pcb
+\i (00:58:46) zoom in 0.1739 -0.9907
+\i (00:58:46) trapsize 191
+\i (00:58:46) zoom out 1 
+\i (00:58:46) setwindow pcb
+\i (00:58:46) zoom out -0.3187 -0.9677
+\i (00:58:46) trapsize 382
+\i (00:58:47) zoom in 1 
+\i (00:58:47) setwindow pcb
+\i (00:58:47) zoom in 0.2923 -0.4332
+\i (00:58:47) trapsize 191
+\i (00:58:47) zoom out 1 
+\i (00:58:47) setwindow pcb
+\i (00:58:47) zoom out 0.2923 -0.4331
+\i (00:58:47) trapsize 382
+\i (00:58:51) show measure 
+\i (00:58:52) zoom in 1 
+\i (00:58:52) setwindow pcb
+\i (00:58:52) zoom in 1.6136 -0.6699
+\i (00:58:52) trapsize 191
+\i (00:58:54) pick grid 1.1974 -1.2924
+\t (00:58:54) last pick:  1.2000 -1.3000
+\i (00:59:03) pick grid 2.3010 -1.2924
+\t (00:59:03) last pick:  2.3000 -1.3000
+\i (00:59:39) zoom out 1 
+\i (00:59:39) setwindow pcb
+\i (00:59:39) zoom out 0.5024 -0.4370
+\i (00:59:39) trapsize 382
+\i (00:59:39) zoom out 1 
+\i (00:59:39) setwindow pcb
+\i (00:59:39) zoom out 0.5635 -0.3224
+\i (00:59:39) trapsize 764
+\i (00:59:40) zoom in 1 
+\i (00:59:40) setwindow pcb
+\i (00:59:40) zoom in 1.1286 0.1053
+\i (00:59:40) trapsize 382
+\i (00:59:41) zoom out 1 
+\i (00:59:41) setwindow pcb
+\i (00:59:41) zoom out 2.5034 0.4261
+\i (00:59:41) trapsize 764
+\i (00:59:41) zoom in 1 
+\i (00:59:41) setwindow pcb
+\i (00:59:41) zoom in 2.3813 0.2276
+\i (00:59:41) trapsize 382
+\i (00:59:42) zoom in 1 
+\i (00:59:42) setwindow pcb
+\i (00:59:42) zoom in 2.5875 0.3728
+\i (00:59:42) trapsize 191
+\i (00:59:42) zoom in 1 
+\i (00:59:42) setwindow pcb
+\i (00:59:42) zoom in 2.6143 0.4034
+\i (00:59:42) trapsize 95
+\i (00:59:43) zoom out 1 
+\i (00:59:43) setwindow pcb
+\i (00:59:43) zoom out 2.5627 0.3595
+\i (00:59:43) trapsize 191
+\i (00:59:52) pick grid 2.7041 0.3785
+\t (00:59:52) last pick:  2.7000 0.4000
+\i (00:59:53) pick grid 2.6926 -0.3661
+\t (00:59:53) last pick:  2.7000 -0.4000
+\i (01:00:10) zoom out 1 
+\i (01:00:10) setwindow pcb
+\i (01:00:10) zoom out 0.9971 -0.8587
+\i (01:00:10) trapsize 382
+\i (01:00:10) zoom out 1 
+\i (01:00:10) setwindow pcb
+\i (01:00:10) zoom out 0.9971 -0.8588
+\i (01:00:10) trapsize 764
+\i (01:00:11) zoom in 1 
+\i (01:00:11) setwindow pcb
+\i (01:00:11) zoom in -1.1872 -2.0196
+\i (01:00:11) trapsize 382
+\i (01:00:11) zoom in 1 
+\i (01:00:11) setwindow pcb
+\i (01:00:11) zoom in -1.2024 -1.6530
+\i (01:00:11) trapsize 191
+\i (01:00:13) pick grid -1.1910 -1.3971
+\t (01:00:13) last pick:  -1.2000 -1.4000
+\i (01:00:15) pick grid -1.2253 -1.3895
+\t (01:00:15) last pick:  -1.2000 -1.4000
+\i (01:00:16) pick grid -1.2101 -1.3971
+\t (01:00:16) last pick:  -1.2000 -1.4000
+\i (01:00:16) zoom out 1 
+\i (01:00:16) setwindow pcb
+\i (01:00:16) zoom out -1.1910 -1.3704
+\i (01:00:16) trapsize 382
+\i (01:00:17) zoom in 1 
+\i (01:00:17) setwindow pcb
+\i (01:00:17) zoom in -1.2138 -0.3851
+\i (01:00:17) trapsize 191
+\i (01:00:19) pick grid -1.1909 -0.6409
+\t (01:00:19) last pick:  -1.2000 -0.6000
+\i (01:00:21) pick grid 1.2187 -0.5989
+\t (01:00:21) last pick:  1.2000 -0.6000
+\i (01:00:22) zoom out 1 
+\i (01:00:22) setwindow pcb
+\i (01:00:22) zoom out 0.8789 -0.5722
+\i (01:00:22) trapsize 382
+\i (01:00:24) pick grid -2.2831 -0.6027
+\t (01:00:24) last pick:  -2.3000 -0.6000
+\i (01:00:27) pick grid 2.2994 -0.5950
+\t (01:00:27) last pick:  2.3000 -0.6000
+\i (01:00:31) pick grid 2.8951 -0.3736
+\t (01:00:31) last pick:  2.9000 -0.4000
+\i (01:00:33) pick grid 2.9104 0.4055
+\t (01:00:33) last pick:  2.9000 0.4000
+\i (01:07:32) open 
+\e (01:07:32) Do you want to save the changes you made to SOD3716X135N.dra?
+\i (01:07:33) fillin yes 
+\t (01:07:34) Symbol 'sod3716x135n.psm' created.
+\i (01:07:43) fillin "C:\Users\Andrei\Desktop\Capsule Proiect\IPB039N10N3G\PG-TO263-3.dra"
+\i (01:07:43) cd "C:\Users\Andrei\Desktop\Capsule Proiect\IPB039N10N3G"
+\t (01:07:43) Opening existing design...
+\i (01:07:43) trapsize 10387
+\t (01:07:43)     Journal end - Mon Feb 22 23:38:13 2021

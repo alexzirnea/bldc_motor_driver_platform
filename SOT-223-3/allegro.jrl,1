@@ -1,0 +1,16 @@
+\t (00:00:03) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:03)     Journal start - Mon Feb 22 21:28:01 2021
+\t (00:00:03)         Host=SATELLITE User=Andrei Pid=1700 CPUs=4
+\t (00:00:03) CmdLine= D:\Programare si Proiectare\OrCAD\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:03) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/Users/Andrei/Desktop/Capsule Proiect/LM1117MP-3.3/SOT230P696X180-4N.dra
+\i (00:00:03) trapsize 8
+\i (00:00:04) trapsize 8
+\i (00:00:06) generaledit 
+\i (00:00:10) open 
+\i (00:00:23) fillin "C:\Users\Andrei\Desktop\Capsule Proiect\ATM90E32AS-AU-Y\QFP50P900X900X120-48N.dra"
+\i (00:00:23) cd "C:\Users\Andrei\Desktop\Capsule Proiect\ATM90E32AS-AU-Y"
+\t (00:00:23) Opening existing design...
+\i (00:00:24) trapsize 1527
+\t (00:00:24)     Journal end - Mon Feb 22 21:28:22 2021
