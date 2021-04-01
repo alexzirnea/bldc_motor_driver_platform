@@ -51,6 +51,10 @@
 *.tag
 *.CFG
 
+#MPLAB Files
+*.flag
+*dist
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
