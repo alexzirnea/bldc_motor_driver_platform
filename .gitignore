@@ -50,6 +50,7 @@
 *.JRL*
 *.tag
 *.CFG
+*.OLBlck
 
 #MPLAB Files
 *.flag
