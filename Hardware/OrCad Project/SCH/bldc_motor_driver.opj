@@ -1,0 +1,23 @@
+(ExpressProject "bldc_motor_driver"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\bldc_motor_driver.dsn"
+      (Type "Schematic Design")))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (MPSSessionName "Alexandru_Zirnea")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\alexandru zirnea\desktop\git\bldc_motor_driver_platform\hardware\orcad project\sch\bldc_motor_driver.dsn")
+      (Select "Design Resources" "Library"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 150"))
+      (Tab 0))))

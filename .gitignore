@@ -42,6 +42,19 @@
 *.idb
 *.pdb
 
+#OrCad files
+*.log*
+*.htm
+*.DSNLCK
+*.edf
+*.JRL*
+*.tag
+*.CFG
+
+#MPLAB Files
+*.flag
+*dist
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
