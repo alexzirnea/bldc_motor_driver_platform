@@ -41,20 +41,7 @@
 *.su
 *.idb
 *.pdb
-
-#OrCad files
-*.log*
-*.htm
-*.DSNLCK
-*.edf
-*.JRL*
-*.tag
-*.CFG
-*.OLBlck
-
-#MPLAB Files
-*.flag
-*dist
+Debug/
 
 # Kernel Module Compile Results
 *.mod*
@@ -64,3 +51,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Text editor configuration files 
+.settings/
+.vscode/
+.project
+.cproject
+*.xml
+
+# Folders
+HAL_Driver/
+CMSIS/
