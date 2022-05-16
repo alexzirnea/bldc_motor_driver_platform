@@ -1,5 +1,6 @@
 (ExpressProject "bldc_motor_driver"
   (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/16/22]")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\symbol_lib\bldc_motor_driver_lib.olb"
@@ -8,50 +9,72 @@
     (File ".\bldc_motor_driver.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout")
   (Folder "Outputs"
     (File ".\session log"
       (Type "Report")))
   (Folder "Referenced Projects")
-  (MPSSessionName "Alex_Zirnea")
+  (MPSSessionName "Alex Zirnea")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn")
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn")
       (Path "Design Resources"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
          "top_level")
       (Path "Design Resources"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
-         "analog")
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
+         "feedback")
       (Path "Design Resources"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
          "i/o")
       (Path "Design Resources"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
          "power_stage")
       (Path "Design Resources"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
          "supply")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\symbol_lib\bldc_motor_driver_lib.olb")
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\symbol_lib\bldc_motor_driver_lib.olb")
       (Path "Outputs")
       (Select "Design Resources"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
-         "supply" "PAGE1"))
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 150"))
+        (Placement "44 2 3 -1 -1 0 0 0 200 0 150"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1466 52 410")
-        (Scroll "-198 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 619")
+        (Scroll "0 77")
+        (Zoom "124"))
+      (Path
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
+      (Schematic "i/o")
+      (Page "connectors"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 619")
+        (Scroll "-202 0")
+        (Zoom "82"))
+      (Path
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
+      (Schematic "i/o")
+      (Page "user_i/o"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1400 24 619")
+        (Scroll "-196 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -61,110 +84,128 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1492 78 436")
-        (Scroll "-198 0")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1400 24 619")
+        (Scroll "-196 67")
         (Zoom "100"))
-      (Path
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
-      (Schematic "analog")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1518 104 462")
-        (Scroll "-198 0")
-        (Zoom "100"))
-      (Path
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
-      (Schematic "i/o")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1544 130 488")
-        (Scroll "-363 0")
-        (Zoom "66"))
-      (Path
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
-      (Schematic "power_stage")
-      (Page "power_transistors"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1277 156 514")
-        (Scroll "-216 0")
-        (Zoom "66"))
-      (Path
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
-      (Schematic "power_stage")
-      (Page "pre_drivers"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1414 0 358")
-        (Scroll "-42 0")
-        (Zoom "132"))
       (Path
          "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
       (Schematic "supply")
-      (Page "PAGE1")))
+      (Page "100v_buck"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1400 24 619")
+        (Scroll "0 147")
+        (Zoom "144"))
+      (Path
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
+      (Schematic "i/o")
+      (Page "communication")))
   (PartMRUSelector
-    (CAP
-      (FullPartName "CAP.Normal")
-      (LibraryName
-         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (GND
-      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    ("DIODE ZENER"
-      (FullPartName "DIODE ZENER.Normal")
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_CIRCLE
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (NRF24L01P-MODULE-PCB
+      (FullPartName "NRF24L01P-MODULE-PCB.Normal")
       (LibraryName
-         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\SYMBOL_LIB\BLDC_MOTOR_DRIVER_LIB.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4X2"
+      (FullPartName "HEADER 4X2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LL-R3528RGBC-008-B
+      (FullPartName "LL-R3528RGBC-008-B.Normal")
       (LibraryName
-         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\SYMBOL_LIB\BLDC_MOTOR_DRIVER_LIB.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     ("CAP NP"
       (FullPartName "CAP NP.Normal")
-      (LibraryName
-         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (DIODE
-      (FullPartName "DIODE.Normal")
-      (LibraryName
-         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName
-         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (MCP16331T-E_CH
-      (FullPartName "MCP16331T-E_CH.Normal")
+    (INA240A2EDRQ1
+      (FullPartName "INA240A2EDRQ1.Normal")
       (LibraryName
          "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\SYMBOL_LIB\BLDC_MOTOR_DRIVER_LIB.OLB")
       (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    ("SW KEY-SPST"
+      (FullPartName "SW KEY-SPST.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (MIC4104YM
-      (FullPartName "MIC4104YM.Normal")
+    (POT_R_W_S
+      (FullPartName "POT_R_W_S.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (POT_EU-
+      (FullPartName "POT_EU-.Normal")
       (LibraryName
          "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\SYMBOL_LIB\BLDC_MOTOR_DRIVER_LIB.OLB")
       (DeviceIndex "0"))
-    (IPB039N10N3_G
-      (FullPartName "IPB039N10N3_G.Normal")
-      (LibraryName
-         "C:\USERS\ALEXANDRU ZIRNEA\DESKTOP\GIT\BLDC_MOTOR_DRIVER_PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\SYMBOL_LIB\BLDC_MOTOR_DRIVER_LIB.OLB")
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DIODE_DUAL_RS_AKJ
+      (FullPartName "DIODE_DUAL_RS_AKJ.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (JUMPER
+      (FullPartName "JUMPER.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (JUMPER1
+      (FullPartName "JUMPER1.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE TAZ BI-DIR"
+      (FullPartName "DIODE TAZ BI-DIR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON1
+      (FullPartName "CON1.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 3"
+      (FullPartName "HEADER 3.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
-  (LastUsedLibraryBrowseDirectory
-     "C:\OrCAD\OrCAD_16.6_Lite\tools\capture\library"))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))
