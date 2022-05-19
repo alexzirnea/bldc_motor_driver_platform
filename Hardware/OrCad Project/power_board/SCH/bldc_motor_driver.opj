@@ -1,6 +1,6 @@
 (ExpressProject "bldc_motor_driver"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/18/22]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/20/22]")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\symbol_lib\bldc_motor_driver_lib.olb"
@@ -27,10 +27,30 @@
     (Update_Instace_for_External_Design "FALSE")
     (width_pages "100")
     (width_start "80")
-    (width_End "80"))
+    (width_End "80")
+    (PSPICE_Regenerate_Netlist_Flag "TRUE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "C:\GIT\BLDC Platform\Hardware\OrCad Project\power_board\PCB")
+    ("View Allegro Netlist Files" "TRUE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\BLDC_MOTOR_DRIVER.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\session log"
+      (Type "Report"))
+    (File ".\bldc_motor_driver-pspicefiles\top_level\top_level.net"
       (Type "Report")))
   (Folder "Referenced Projects")
   (MPSSessionName "Alex Zirnea")
@@ -61,9 +81,8 @@
       (Path "Design Resources" "Library"
          "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\symbol_lib\bldc_motor_driver_lib.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
-         "i/o" "user_i/o"))
+      (Select "Design Resources" "Library"
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\symbol_lib\bldc_motor_driver_lib.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -73,12 +92,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1049 24 544")
+        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
         (Scroll "524 1176")
         (Zoom "284"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1049 24 544")
-        (Scroll "555 494")
+        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
+        (Scroll "0 494")
         (Zoom "134")
         (Occurrence "/S2"))
       (Path
@@ -88,12 +107,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1049 24 544")
-        (Scroll "886 571")
+        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
+        (Scroll "339 571")
         (Zoom "164"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1049 24 544")
-        (Scroll "648 17")
+        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
+        (Scroll "81 17")
         (Zoom "142")
         (Occurrence "/S2"))
       (Path
@@ -103,7 +122,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1049 24 544")
+        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
         (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
@@ -114,12 +133,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1049 24 544")
-        (Scroll "-21 0")
+        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 483")
+        (Scroll "0 0")
         (Zoom "100"))
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1049 24 544")
-        (Scroll "-21 21")
+        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 483")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/S5"))
       (Path
@@ -129,12 +148,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1049 24 544")
+        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
         (Scroll "0 278")
         (Zoom "144"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1049 24 544")
-        (Scroll "0 160")
+        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
+        (Scroll "0 41")
         (Zoom "154")
         (Occurrence "/S2"))
       (Path
@@ -144,8 +163,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1049 24 544")
-        (Scroll "0 160")
+        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 483")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/S1"))
       (Path
@@ -155,8 +174,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1049 24 544")
-        (Scroll "0 23")
+        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 483")
+        (Scroll "102 368")
         (Zoom "100")
         (Occurrence "/S3"))
       (Path
@@ -166,8 +185,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1049 24 544")
-        (Scroll "274 534")
+        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 483")
+        (Scroll "608 102")
         (Zoom "134")
         (Occurrence "/S5"))
       (Path
@@ -177,7 +196,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1049 24 544")
+        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
         (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/S4"))
@@ -289,4 +308,5 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs"))
+  (Folder "Logs")
+  (ISPCBBASICLICENSE "false"))
