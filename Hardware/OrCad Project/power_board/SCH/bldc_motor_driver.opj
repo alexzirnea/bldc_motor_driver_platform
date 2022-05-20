@@ -1,6 +1,6 @@
 (ExpressProject "bldc_motor_driver"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/20/22]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/21/22]")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\symbol_lib\bldc_motor_driver_lib.olb"
@@ -36,7 +36,7 @@
     ("View Allegro Netlist Files" "TRUE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
-    ("Allegro Netlist Output Board File" "allegro\BLDC_MOTOR_DRIVER.brd")
+    ("Allegro Netlist Output Board File" ".\allegro\bldc_motor_driver.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -45,7 +45,61 @@
     ("Allegro Setup Part Type Length" "255")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DRC"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\session log"
@@ -58,31 +112,28 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn")
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn")
       (Path "Design Resources"
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
-         "top_level")
-      (Path "Design Resources"
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
          "feedback")
       (Path "Design Resources"
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
          "i/o")
       (Path "Design Resources"
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
          "power_stage")
       (Path "Design Resources"
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
          "pre_drivers")
       (Path "Design Resources"
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\bldc_motor_driver.dsn"
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
          "supply")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\symbol_lib\bldc_motor_driver_lib.olb")
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\symbol_lib\bldc_motor_driver_lib.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library"
-         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\symbol_lib\bldc_motor_driver_lib.olb"))
+      (Select "Design Resources"
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -92,12 +143,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
+        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
         (Scroll "524 1176")
         (Zoom "284"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
-        (Scroll "0 494")
+        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
+        (Scroll "0 397")
         (Zoom "134")
         (Occurrence "/S2"))
       (Path
@@ -107,13 +158,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
-        (Scroll "339 571")
+        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
+        (Scroll "65 571")
         (Zoom "164"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
-        (Scroll "81 17")
-        (Zoom "142")
+        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
+        (Scroll "0 206")
+        (Zoom "124")
         (Occurrence "/S2"))
       (Path
          "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
@@ -122,8 +173,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
+        (Scroll "-128 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -133,12 +184,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 483")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1463 24 756")
+        (Scroll "-228 0")
         (Zoom "100"))
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 483")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1463 24 756")
+        (Scroll "-228 10")
         (Zoom "100")
         (Occurrence "/S5"))
       (Path
@@ -148,12 +199,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
-        (Scroll "0 278")
+        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
+        (Scroll "-14 278")
         (Zoom "144"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
-        (Scroll "0 41")
+        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
+        (Scroll "0 243")
         (Zoom "154")
         (Occurrence "/S2"))
       (Path
@@ -163,9 +214,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 483")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1463 24 756")
+        (Scroll "-228 -7")
+        (Zoom "83")
         (Occurrence "/S1"))
       (Path
          "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
@@ -174,8 +225,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 483")
-        (Scroll "102 368")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1463 24 756")
+        (Scroll "-128 0")
         (Zoom "100")
         (Occurrence "/S3"))
       (Path
@@ -185,9 +236,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 483")
-        (Scroll "608 102")
-        (Zoom "134")
+        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
+        (Scroll "168 0")
+        (Zoom "166")
         (Occurrence "/S5"))
       (Path
          "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
@@ -196,8 +247,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 996 24 483")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
+        (Scroll "-128 0")
         (Zoom "100")
         (Occurrence "/S4"))
       (Path
@@ -205,6 +256,11 @@
       (Schematic "pre_drivers")
       (Page "pre_drivers")))
   (PartMRUSelector
+    (B3F-1000
+      (FullPartName "B3F-1000.Normal")
+      (LibraryName
+         "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\SYMBOL_LIB\BLDC_MOTOR_DRIVER_LIB.OLB")
+      (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -293,10 +349,6 @@
       (DeviceIndex "0"))
     (JUMPER
       (FullPartName "JUMPER.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (JUMPER1
-      (FullPartName "JUMPER1.Normal")
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library")
