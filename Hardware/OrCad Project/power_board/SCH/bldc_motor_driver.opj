@@ -1,6 +1,6 @@
 (ExpressProject "bldc_motor_driver"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/21/22]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[05/22/22]")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\symbol_lib\bldc_motor_driver_lib.olb"
@@ -33,7 +33,7 @@
     ("Create Allegro Netlist" "TRUE")
     ("Allegro Netlist Directory"
        "C:\GIT\BLDC Platform\Hardware\OrCad Project\power_board\PCB")
-    ("View Allegro Netlist Files" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
     ("Allegro Netlist Output Board File" ".\allegro\bldc_motor_driver.brd")
@@ -100,12 +100,28 @@
     (DRC_Run_Custom_Rules "FALSE")
     (DRC_Report_File
        "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DRC"))
-  (Folder "Layout")
+  (Folder "Layout"
+    (File "..\pcb\motherboard.brd"
+      (Type "Board File")
+      (OutputBoard "..\pcb\motherboard.brd")
+      (NetListPath "..\pcb")
+      (ActiveBoard "0")))
   (Folder "Outputs"
     (File ".\session log"
       (Type "Report"))
     (File ".\bldc_motor_driver-pspicefiles\top_level\top_level.net"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\bldc_motor_driver.drc"
+      (Type "Report"))
+    (File "..\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "..\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "..\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (MPSSessionName "Alex Zirnea")
   (GlobalState
@@ -113,6 +129,9 @@
       (Path "Design Resources")
       (Path "Design Resources"
          "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn")
+      (Path "Design Resources"
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
+         "top_level")
       (Path "Design Resources"
          "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
          "feedback")
@@ -131,9 +150,8 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "c:\git\bldc platform\hardware\orcad project\power_board\sch\symbol_lib\bldc_motor_driver_lib.olb")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"))
+      (Path "Layout")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -143,12 +161,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
-        (Scroll "524 1176")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "524 252")
         (Zoom "284"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
-        (Scroll "0 397")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "-35 407")
         (Zoom "134")
         (Occurrence "/S2"))
       (Path
@@ -158,12 +176,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
         (Scroll "65 571")
         (Zoom "164"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
-        (Scroll "0 206")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "-93 72")
         (Zoom "124")
         (Occurrence "/S2"))
       (Path
@@ -173,9 +191,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
-        (Scroll "-128 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "-117 70")
+        (Zoom "120")
         (Occurrence "/"))
       (Path
          "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
@@ -184,12 +202,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1463 24 756")
-        (Scroll "-228 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "-333 10")
         (Zoom "100"))
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1463 24 756")
-        (Scroll "-228 10")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 756")
+        (Scroll "-333 10")
         (Zoom "100")
         (Occurrence "/S5"))
       (Path
@@ -199,12 +217,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
-        (Scroll "-14 278")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "-120 154")
         (Zoom "144"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
-        (Scroll "0 243")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "-71 189")
         (Zoom "154")
         (Occurrence "/S2"))
       (Path
@@ -214,8 +232,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1463 24 756")
-        (Scroll "-228 -7")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "-333 -7")
         (Zoom "83")
         (Occurrence "/S1"))
       (Path
@@ -225,8 +243,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1463 24 756")
-        (Scroll "-128 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "-234 47")
         (Zoom "100")
         (Occurrence "/S3"))
       (Path
@@ -236,9 +254,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
-        (Scroll "168 0")
-        (Zoom "166")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "-310 0")
+        (Zoom "87")
         (Occurrence "/S5"))
       (Path
          "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
@@ -247,8 +265,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1463 24 756")
-        (Scroll "-128 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Scroll "-234 10")
         (Zoom "100")
         (Occurrence "/S4"))
       (Path

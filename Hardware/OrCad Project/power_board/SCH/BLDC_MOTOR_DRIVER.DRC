@@ -1,4 +1,4 @@
-Date and Time : 05/21/22 00:13:50
+Date and Time : 05/21/22 19:32:26
 
 --------------------------------------------------
 Checking Schematic: pre_drivers
@@ -23,25 +23,17 @@ Checking Schematic: supply
 --------------------------------------------------
 Checking Electrical Rules 
 WARNING(ORCAP-1829): Possible pin type conflict GND  Power Connected to Bidirectional
-                    supply, 100v_buck  (4.60, 4.80) 
-WARNING(ORCAP-1829): Possible pin type conflict U2,PGND  Power Connected to Bidirectional
-                    supply, 100v_buck  (2.40, 2.20) 
-WARNING(ORCAP-1829): Possible pin type conflict U2,AGND  Power Connected to Bidirectional
-                    supply, 100v_buck  (2.40, 2.30) 
-WARNING(ORCAP-1829): Possible pin type conflict U2,EP  Bidirectional Connected to Power
-                    supply, 100v_buck  (3.80, 2.90) 
+                    supply, power_reg  (48.26, 121.92) 
 WARNING(ORCAP-1829): Possible pin type conflict U3,ADJ/GND  Power Connected to Bidirectional
                     supply, power_reg  (236.22, 25.40) 
 WARNING(ORCAP-1829): Possible pin type conflict U4,ADJ/GND  Power Connected to Bidirectional
                     supply, power_reg  (236.22, 60.96) 
-ERROR(ORCAP-1628): Possible pin type conflict +3V3  Power Connected to Output
-                    supply, power_reg  (76.20, 86.36) 
-ERROR(ORCAP-1628): Possible pin type conflict U4,VOUT  Output Connected to Power
-                    supply, power_reg  (236.22, 55.88) 
-ERROR(ORCAP-1628): Possible pin type conflict +5V  Power Connected to Output
-                    supply, power_reg  (248.92, 20.32) 
-ERROR(ORCAP-1628): Possible pin type conflict U3,VOUT  Output Connected to Power
-                    supply, power_reg  (236.22, 20.32) 
+WARNING(ORCAP-1829): Possible pin type conflict U2,AGND  Power Connected to Bidirectional
+                    supply, 100v_buck  (2.40, 2.30) 
+WARNING(ORCAP-1829): Possible pin type conflict U2,EP  Bidirectional Connected to Power
+                    supply, 100v_buck  (3.80, 2.90) 
+WARNING(ORCAP-1829): Possible pin type conflict U2,PGND  Power Connected to Bidirectional
+                    supply, 100v_buck  (2.40, 2.20) 
 
 Checking For Single Node Nets
 
@@ -51,43 +43,25 @@ Checking For Unconnected Bus Nets
 Checking Schematic: top_level
 --------------------------------------------------
 Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict S4,PHASE_B_DRV  Bidirectional Connected to Output
+                    top_level, PAGE1  (147.32, 76.20) 
 WARNING(ORCAP-1829): Possible pin type conflict S3,PHASE_B  Output Connected to Bidirectional
                     top_level, PAGE1  (246.38, 96.52) 
-ERROR(ORCAP-1628): Possible pin type conflict S3,PHASE_B  Output Connected to Output
-                    top_level, PAGE1  (246.38, 96.52) 
-WARNING(ORCAP-1829): Possible pin type conflict S1,PHASE_B  Output Connected to Bidirectional
-                    top_level, PAGE1  (104.14, 30.48) 
-ERROR(ORCAP-1628): Possible pin type conflict S1,PHASE_B  Output Connected to Output
-                    top_level, PAGE1  (104.14, 30.48) 
-WARNING(ORCAP-1829): Possible pin type conflict S4,PHASE_B  Bidirectional Connected to Output
-                    top_level, PAGE1  (147.32, 76.20) 
-WARNING(ORCAP-1829): Possible pin type conflict S3,PHASE_A  Output Connected to Bidirectional
-                    top_level, PAGE1  (246.38, 78.74) 
-ERROR(ORCAP-1628): Possible pin type conflict S3,PHASE_A  Output Connected to Output
-                    top_level, PAGE1  (246.38, 78.74) 
-WARNING(ORCAP-1829): Possible pin type conflict S1,PHASE_A  Output Connected to Bidirectional
-                    top_level, PAGE1  (104.14, 22.86) 
-ERROR(ORCAP-1628): Possible pin type conflict S1,PHASE_A  Output Connected to Output
-                    top_level, PAGE1  (104.14, 22.86) 
-WARNING(ORCAP-1829): Possible pin type conflict S4,PHASE_A  Bidirectional Connected to Output
-                    top_level, PAGE1  (142.24, 76.20) 
+WARNING(ORCAP-1829): Possible pin type conflict S4,PHASE_C_DRV  Bidirectional Connected to Output
+                    top_level, PAGE1  (152.40, 76.20) 
 WARNING(ORCAP-1829): Possible pin type conflict S3,PHASE_C  Output Connected to Bidirectional
                     top_level, PAGE1  (246.38, 114.30) 
-ERROR(ORCAP-1628): Possible pin type conflict S3,PHASE_C  Output Connected to Output
-                    top_level, PAGE1  (246.38, 114.30) 
-WARNING(ORCAP-1829): Possible pin type conflict S1,PHASE_C  Output Connected to Bidirectional
-                    top_level, PAGE1  (104.14, 38.10) 
-ERROR(ORCAP-1628): Possible pin type conflict S1,PHASE_C  Output Connected to Output
-                    top_level, PAGE1  (104.14, 38.10) 
-WARNING(ORCAP-1829): Possible pin type conflict S4,PHASE_C  Bidirectional Connected to Output
-                    top_level, PAGE1  (152.40, 76.20) 
+WARNING(ORCAP-1829): Possible pin type conflict S4,PHASE_A_DRV  Bidirectional Connected to Output
+                    top_level, PAGE1  (142.24, 76.20) 
+WARNING(ORCAP-1829): Possible pin type conflict S3,PHASE_A  Output Connected to Bidirectional
+                    top_level, PAGE1  (246.38, 78.74) 
 
 Checking For Single Node Nets
 
 Checking For Unconnected Bus Nets
 
 --------------------------------------------------
-Checking Schematic: i/o
+Checking Schematic: feedback
 --------------------------------------------------
 Checking Electrical Rules 
 
@@ -96,7 +70,7 @@ Checking For Single Node Nets
 Checking For Unconnected Bus Nets
 
 --------------------------------------------------
-Checking Schematic: feedback
+Checking Schematic: i/o
 --------------------------------------------------
 Checking Electrical Rules 
 
@@ -138,8 +112,6 @@ INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
 Report for Invalid References
 
 Report for Duplicate References
-ERROR(ORCAP-1631): Duplicate reference C14 
-                    supply, 100v_buck  (4.50, 4.30) 
 
 --------------------------------------------------
 Checking Schematic: top_level
@@ -152,7 +124,7 @@ Report for Invalid References
 Report for Duplicate References
 
 --------------------------------------------------
-Checking Schematic: i/o
+Checking Schematic: feedback
 --------------------------------------------------
 
 INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
@@ -162,7 +134,7 @@ Report for Invalid References
 Report for Duplicate References
 
 --------------------------------------------------
-Checking Schematic: feedback
+Checking Schematic: i/o
 --------------------------------------------------
 
 INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
@@ -188,16 +160,20 @@ Checking Name Property for Hierarchical Instances
 INFO(ORCAP-2211): Check High Speed Properties Syntax
 
 INFO(ORCAP-2212): Check Power Ground Mismatch
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,PGND  PGND  GND
-                    supply, 100v_buck  (2.40, 2.20) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,AGND  AGND  GND
-                    supply, 100v_buck  (2.40, 2.30) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,VOUT  VOUT  +5V
+                    supply, power_reg  (236.22, 20.32) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,ADJ/GND  ADJ/GND  GND
                     supply, power_reg  (236.22, 25.40) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,ADJ/GND  ADJ/GND  GND
                     supply, power_reg  (236.22, 60.96) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,AGND  AGND  GND
+                    supply, 100v_buck  (2.40, 2.30) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,PGND  PGND  GND
+                    supply, 100v_buck  (2.40, 2.20) 
 QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  +3V3
                     i/o, communication  (2.60, 2.20) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,VOUT  VOUT  +3V3
+                    supply, power_reg  (236.22, 55.88) 
 
 Reporting Unused Refdes in multiple part packages
 Part	                       Quantity	                       Reference
