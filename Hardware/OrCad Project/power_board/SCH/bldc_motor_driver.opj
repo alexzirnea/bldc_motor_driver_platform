@@ -151,7 +151,10 @@
       (Path "Design Resources" "Library"
          "c:\git\bldc platform\hardware\orcad project\power_board\sch\symbol_lib\bldc_motor_driver_lib.olb")
       (Path "Layout")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
+         "power_stage"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -166,7 +169,7 @@
         (Zoom "284"))
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-35 407")
+        (Scroll "-35 119")
         (Zoom "134")
         (Occurrence "/S2"))
       (Path
@@ -181,7 +184,7 @@
         (Zoom "164"))
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-93 72")
+        (Scroll "-93 84")
         (Zoom "124")
         (Occurrence "/S2"))
       (Path
@@ -203,11 +206,11 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-333 10")
+        (Scroll "-333 0")
         (Zoom "100"))
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 756")
-        (Scroll "-333 10")
+        (Scroll "-333 0")
         (Zoom "100")
         (Occurrence "/S5"))
       (Path
@@ -244,7 +247,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-234 47")
+        (Scroll "-234 0")
         (Zoom "100")
         (Occurrence "/S3"))
       (Path
@@ -266,7 +269,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-234 10")
+        (Scroll "-234 0")
         (Zoom "100")
         (Occurrence "/S4"))
       (Path

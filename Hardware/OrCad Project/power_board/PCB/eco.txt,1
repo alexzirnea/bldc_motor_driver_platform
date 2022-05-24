@@ -3,43 +3,41 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../BLDC Platform/Hardware/OrCad Project/power_board/PCB/motherboard.brd  |
-|                                                    Sun May 22 22:26:06 2022  |
+|                                                    Sun May 22 22:30:10 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- CON11_ILI9341_2_8INCH_CON11
+ CON11_0_ILI9341_2_8INCH_CON11
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  C:.../BLDC Platform/Hardware/OrCad Project/power_board/PCB/motherboard.brd  |
-|                                                    Sun May 22 22:26:06 2022  |
+|                                                    Sun May 22 22:30:10 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C23                 CAP NP_SMC0805_1N     18950.0 11300.0 CAP NP_CAPC5750X330N_1N
- J31                 CON11_ILI9341_2_8INCH_CON11 18000.0 10400.0 CON11_BLKCON100VHTM1SQW10011_CON11
+ J31                 CON11_0_ILI9341_2_8INCH_CON11                 CON11_ILI9341_2_8INCH_CON11
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  C:.../BLDC Platform/Hardware/OrCad Project/power_board/PCB/motherboard.brd  |
-|                                                    Sun May 22 22:26:06 2022  |
+|                                                    Sun May 22 22:30:10 2022  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C23.2          18950.0 11300.0 PRIM_FILE      .\pstchip.dat
  J31.9                          PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
 |       Comp definitions added:       1                                        |
-|       Components changed    :       2                                        |
-|       Slot property added   :       2                                        |
+|       Components changed    :       1                                        |
+|       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       5                                        |
+|   Total ECO changes reported:       3                                        |
 |------------------------------------------------------------------------------|
