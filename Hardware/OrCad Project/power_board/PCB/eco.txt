@@ -3,33 +3,19 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../BLDC Platform/Hardware/OrCad Project/power_board/PCB/motherboard.brd  |
-|                                                    Thu May 26 21:35:17 2022  |
+|                                                    Tue Jun  7 00:50:59 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N17966       pins MOVED FROM this net (to net name listed on right)
-                                 D13.2           22446.3 10340.0
-                                                                         N23408
-                                 Q5.1            22698.8 10453.5
-                                                                         N23412
-                                 R52.2           22434.0 10450.0
-                                                                         N23408
-                                 R54.2           22440.0 10224.0
-                                                                         N23408
+  N46233       net RENAMED (to net name listed on right)           PH_A_I_AMP_PWR 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N17970       pins MOVED FROM this net (to net name listed on right)
-                                 D14.2           22456.3 11280.0
-                                                                         N23412
-                                 Q2.1            22698.8 11396.8
-                                                                         N23408
-                                 R57.1           22450.0 11390.0
-                                                                         N23412
-                                 R59.1           22450.0 11180.0
-                                                                         N23412
+  N46259       net RENAMED (to net name listed on right)           PH_C_I_AMP_PWR 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N46285       net RENAMED (to net name listed on right)           PH_B_I_AMP_PWR 
 |------------------------------------------------------------------------------|
-|       Nets changed          :       8                                        |
+|       Nets changed          :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:       8                                        |
+|   Total ECO changes reported:       3                                        |
 |------------------------------------------------------------------------------|

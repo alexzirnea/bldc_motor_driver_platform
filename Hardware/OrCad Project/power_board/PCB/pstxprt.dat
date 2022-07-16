@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.4.0 d001May-26-2022 at 21:35:10 }
+{ Using PSTWRITER 17.4.0 d001Jun-07-2022 at 00:50:53 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='BLDC_MOTOR_DRIVER';
@@ -171,9 +171,9 @@ PART_NAME
  C24 'CAP NP_SMC0805_1U':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS23072@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins23072@discrete.\cap np.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins23072@discrete.\cap np.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS46485@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins46485@discrete.\cap np.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins46485@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -181,9 +181,9 @@ PART_NAME
  C25 'CAP NP_SMC0805_1U':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS24910@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins24910@discrete.\cap np.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins24910@discrete.\cap np.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS46501@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins46501@discrete.\cap np.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins46501@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -191,9 +191,9 @@ PART_NAME
  C26 'CAP NP_SMC0805_1U':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS24053@DISCRETE.CAP NP.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins24053@discrete.\cap np.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins24053@discrete.\cap np.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS46517@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins46517@discrete.\cap np.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins46517@discrete.\cap np.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -891,9 +891,9 @@ PART_NAME
  IC1 'INA240A2EDRQ1_SOIC127P600X175-8N_INA240A2EDRQ1':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS22100@BLDC_MOTOR_DRIVER_LIB.INA240A2EDRQ1.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins22100@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins22100@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS46035@BLDC_MOTOR_DRIVER_LIB.INA240A2EDRQ1.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins46035@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins46035@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -901,9 +901,9 @@ PART_NAME
  IC2 'INA240A2EDRQ1_SOIC127P600X175-8N_INA240A2EDRQ1':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS24768@BLDC_MOTOR_DRIVER_LIB.INA240A2EDRQ1.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins24768@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins24768@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS46063@BLDC_MOTOR_DRIVER_LIB.INA240A2EDRQ1.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins46063@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins46063@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -911,9 +911,9 @@ PART_NAME
  IC3 'INA240A2EDRQ1_SOIC127P600X175-8N_INA240A2EDRQ1':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS23911@BLDC_MOTOR_DRIVER_LIB.INA240A2EDRQ1.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins23911@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins23911@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS46091@BLDC_MOTOR_DRIVER_LIB.INA240A2EDRQ1.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins46091@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins46091@bldc_motor_driver_lib.\ina240a2edrq1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1731,9 +1731,9 @@ PART_NAME
  R37 'RESISTOR_CSS2H-3920R_0.001R':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS1353@DISCRETE.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins1353@discrete.\resistor.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins1353@discrete.\resistor.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS47071@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins47071@discrete.\resistor.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins47071@discrete.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1741,9 +1741,9 @@ PART_NAME
  R38 'RESISTOR_CSS2H-3920R_0.001R':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS1321@DISCRETE.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins1321@discrete.\resistor.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins1321@discrete.\resistor.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS47186@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins47186@discrete.\resistor.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins47186@discrete.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1751,9 +1751,9 @@ PART_NAME
  R39 'RESISTOR_CSS2H-3920R_0.001R':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS1337@DISCRETE.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins1337@discrete.\resistor.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins1337@discrete.\resistor.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS46962@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins46962@discrete.\resistor.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins46962@discrete.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1781,9 +1781,9 @@ PART_NAME
  R41 'RESISTOR_SMR0805_0R':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS22811@DISCRETE.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins22811@discrete.\resistor.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins22811@discrete.\resistor.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS46305@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins46305@discrete.\resistor.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins46305@discrete.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1791,9 +1791,9 @@ PART_NAME
  R42 'RESISTOR_SMR0805_0R':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS24858@DISCRETE.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins24858@discrete.\resistor.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins24858@discrete.\resistor.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS46333@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins46333@discrete.\resistor.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins46333@discrete.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1801,9 +1801,9 @@ PART_NAME
  R43 'RESISTOR_SMR0805_0R':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S3@BLDC_MOTOR_DRIVER.POWER_STAGE(SCH_1):INS24001@DISCRETE.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s3@bldc_motor_driver.power_stage(sch_1):ins24001@discrete.\resistor.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s3@bldc_motor_driver.power_stage(sch_1):page6_ins24001@discrete.\resistor.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S1@BLDC_MOTOR_DRIVER.FEEDBACK(SCH_1):INS46361@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s1@bldc_motor_driver.feedback(sch_1):ins46361@discrete.\resistor.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s1@bldc_motor_driver.feedback(sch_1):page1_ins46361@discrete.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

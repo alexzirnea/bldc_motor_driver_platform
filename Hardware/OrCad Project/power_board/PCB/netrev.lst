@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : motherboard.brd                               )
 (    Software Version : unreleased                                    )
-(    Date/Time        : Thu May 26 21:35:17 2022                      )
+(    Date/Time        : Tue Jun  7 00:50:59 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,12 +22,12 @@ Design Directory:            'C:/GIT/BLDC Platform/Hardware/OrCad Project/power_
 Old design name:             'C:/GIT/BLDC Platform/Hardware/OrCad Project/power_board/PCB/motherboard.brd'
 New design name:             'C:/GIT/BLDC Platform/Hardware/OrCad Project/power_board/PCB/motherboard.brd'
 
-CmdLine: netrev -$ -i . -y 1 -h -q netrev_constraint_report.xml C:/GIT/BLDC Platform/Hardware/OrCad Project/power_board/PCB/#Taaaaas05808.tmp
+CmdLine: netrev -$ -i . -y 1 -h -q netrev_constraint_report.xml C:/GIT/BLDC Platform/Hardware/OrCad Project/power_board/PCB/#Taaaabw02208.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read ./pstchip.dat 
-   Finished reading ./pstchip.dat (00:00:00.03)
+   Finished reading ./pstchip.dat (00:00:00.01)
 Starting to read ./pstxprt.dat 
    Finished reading ./pstxprt.dat (00:00:00.00)
 Starting to read ./pstxnet.dat 
@@ -64,7 +64,7 @@ PADPATH =  C:/GIT/BLDC Platform/Hardware/OrCad Project/parts
 ------ Summary Statistics ------
 
 
-netrev run on May 26 21:35:17 2022
+netrev run on Jun 7 0:50:59 2022
    DESIGN NAME : 'BLDC_MOTOR_DRIVER'
    PACKAGING ON Oct  7 2019 04:16:49
 
@@ -89,6 +89,6 @@ netrev run on May 26 21:35:17 2022
  No oversight detected
  No warning detected
 
-cpu time      0:02:52
-elapsed time  0:00:02
+cpu time      0:02:15
+elapsed time  0:00:01
 
