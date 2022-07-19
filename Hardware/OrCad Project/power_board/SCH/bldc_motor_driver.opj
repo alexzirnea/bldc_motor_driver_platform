@@ -1,6 +1,6 @@
 (ExpressProject "bldc_motor_driver"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[06/07/22]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[07/20/22]")
   (Folder "Design Resources"
     (Folder "Library"
       (File ".\symbol_lib\bldc_motor_driver_lib.olb"
@@ -153,7 +153,8 @@
       (Path "Layout")
       (Path "Outputs")
       (Select "Design Resources"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"))
+         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
+         "supply" "100v_buck"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -163,12 +164,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
         (Scroll "872 914")
         (Zoom "284"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-35 119")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Scroll "0 262")
         (Zoom "134")
         (Occurrence "/S2"))
       (Path
@@ -178,12 +179,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
         (Scroll "65 0")
         (Zoom "164"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-93 84")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Scroll "0 396")
         (Zoom "124")
         (Occurrence "/S2"))
       (Path
@@ -193,8 +194,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-331 -5")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Scroll "-91 0")
         (Zoom "59")
         (Occurrence "/"))
       (Path
@@ -204,12 +205,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-333 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Scroll "-93 0")
         (Zoom "100"))
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 756")
-        (Scroll "-333 0")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1194 24 602")
+        (Scroll "-93 0")
         (Zoom "100")
         (Occurrence "/S5"))
       (Path
@@ -219,12 +220,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-120 154")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Scroll "0 154")
         (Zoom "144"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-71 189")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Scroll "0 189")
         (Zoom "154")
         (Occurrence "/S2"))
       (Path
@@ -234,8 +235,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-333 -7")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Scroll "-93 40")
         (Zoom "83")
         (Occurrence "/S1"))
       (Path
@@ -245,8 +246,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-333 -7")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Scroll "-93 129")
         (Zoom "83")
         (Occurrence "/S3"))
       (Path
@@ -256,8 +257,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-310 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Scroll "-70 162")
         (Zoom "87")
         (Occurrence "/S5"))
       (Path
@@ -267,8 +268,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 756")
-        (Scroll "-234 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/S4"))
       (Path
@@ -278,8 +279,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 756")
-        (Scroll "88 51")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1194 24 602")
+        (Scroll "88 68")
         (Zoom "166")
         (Occurrence "/S1"))
       (Path
