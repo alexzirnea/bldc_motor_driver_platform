@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.4.0 d001Jun-07-2022 at 00:50:53 }
+{ Using PSTWRITER 17.4.0 d001Jul-20-2022 at 22:06:16 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='BLDC_MOTOR_DRIVER';
@@ -2288,32 +2288,32 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U2 'LM5161PWPR_0_IC_TPS27S100BPWPR_LM5161PWPR':;
+ U2 'LM5161PWPR_1_IC_TPS27S100BPWPR_LM5161PWPR':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S5@BLDC_MOTOR_DRIVER.SUPPLY(SCH_1):INS23936@BLDC_MOTOR_DRIVER.LM5161PWPR_0.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s5@bldc_motor_driver.supply(sch_1):ins23936@bldc_motor_driver.\lm5161pwpr_0.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s5@bldc_motor_driver.supply(sch_1):page8_ins23936@bldc_motor_driver.\lm5161pwpr_0.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S5@BLDC_MOTOR_DRIVER.SUPPLY(SCH_1):INS23936@BLDC_MOTOR_DRIVER.LM5161PWPR_1.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s5@bldc_motor_driver.supply(sch_1):ins23936@bldc_motor_driver.\lm5161pwpr_1.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s5@bldc_motor_driver.supply(sch_1):page8_ins23936@bldc_motor_driver.\lm5161pwpr_1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- U3 'AMS1117-33_0_SOT229P700X180-4N_AMS1117-5V':;
+ U3 'AMS1117-33_2_SOT229P700X180-4N_AMS1117-5V':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S5@BLDC_MOTOR_DRIVER.SUPPLY(SCH_1):INS4015@BLDC_MOTOR_DRIVER.AMS1117-33_0.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s5@bldc_motor_driver.supply(sch_1):ins4015@bldc_motor_driver.\ams1117-33_0.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s5@bldc_motor_driver.supply(sch_1):page9_ins4015@bldc_motor_driver.\ams1117-33_0.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S5@BLDC_MOTOR_DRIVER.SUPPLY(SCH_1):INS4015@BLDC_MOTOR_DRIVER.AMS1117-33_2.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s5@bldc_motor_driver.supply(sch_1):ins4015@bldc_motor_driver.\ams1117-33_2.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s5@bldc_motor_driver.supply(sch_1):page9_ins4015@bldc_motor_driver.\ams1117-33_2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- U4 'AMS1117-33_0_SOT229P700X180-4N_AMS1117-33':;
+ U4 'AMS1117-33_2_SOT229P700X180-4N_AMS1117-33':;
 
 SECTION_NUMBER 1
- '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S5@BLDC_MOTOR_DRIVER.SUPPLY(SCH_1):INS3995@BLDC_MOTOR_DRIVER.AMS1117-33_0.NORMAL(CHIPS)':
- C_PATH='@bldc_motor_driver.top_level(sch_1):s5@bldc_motor_driver.supply(sch_1):ins3995@bldc_motor_driver.\ams1117-33_0.normal\(chips)',
- P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s5@bldc_motor_driver.supply(sch_1):page9_ins3995@bldc_motor_driver.\ams1117-33_0.normal\(chips)',
+ '@BLDC_MOTOR_DRIVER.TOP_LEVEL(SCH_1):S5@BLDC_MOTOR_DRIVER.SUPPLY(SCH_1):INS3995@BLDC_MOTOR_DRIVER.AMS1117-33_2.NORMAL(CHIPS)':
+ C_PATH='@bldc_motor_driver.top_level(sch_1):s5@bldc_motor_driver.supply(sch_1):ins3995@bldc_motor_driver.\ams1117-33_2.normal\(chips)',
+ P_PATH='@bldc_motor_driver.top_level(sch_1):page1_s5@bldc_motor_driver.supply(sch_1):page9_ins3995@bldc_motor_driver.\ams1117-33_2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Jun-07-2022 at 00:50:53}
+{ Using PSTWRITER 17.4.0 d001Jul-20-2022 at 22:06:16}
 primitive 'CAP NP_SMC0805_1N';
   pin
     '1':
@@ -1246,12 +1246,12 @@ primitive 'NRF24L01P-MODULE-PCB_XCVR_NRF24L01P-MODULE-PCB_NRF24L01P-MODULE-PCB';
     VALUE='NRF24L01P-MODULE-PCB';
   end_body;
 end_primitive;
-primitive 'LM5161PWPR_0_IC_TPS27S100BPWPR_LM5161PWPR';
+primitive 'LM5161PWPR_1_IC_TPS27S100BPWPR_LM5161PWPR';
   pin
     'AGND':
       PIN_NUMBER='(1)';
       PINUSE='POWER';
-    'PGND':
+    'PGND#2':
       PIN_NUMBER='(2)';
       PINUSE='POWER';
     'VIN':
@@ -1297,15 +1297,33 @@ primitive 'LM5161PWPR_0_IC_TPS27S100BPWPR_LM5161PWPR';
       INPUT_LOAD='(*)';
       OUTPUT_LOAD='(*)';
       BIDIRECTIONAL='TRUE';
+    'PGND#16':
+      PIN_NUMBER='(16)';
+      PINUSE='POWER';
+    'PGND#17':
+      PIN_NUMBER='(17)';
+      PINUSE='POWER';
+    'PGND#18':
+      PIN_NUMBER='(18)';
+      PINUSE='POWER';
+    'PGND#19':
+      PIN_NUMBER='(19)';
+      PINUSE='POWER';
+    'PGND#20':
+      PIN_NUMBER='(20)';
+      PINUSE='POWER';
+    'PGND#21':
+      PIN_NUMBER='(21)';
+      PINUSE='POWER';
   end_pin;
   body
-    PART_NAME='LM5161PWPR_0';
+    PART_NAME='LM5161PWPR_1';
     JEDEC_TYPE='IC_TPS27S100BPWPR';
     VALUE='LM5161PWPR';
-    NC_PINS='(7,14,16,17,18,19,20,21)';
+    NC_PINS='(7,14)';
   end_body;
 end_primitive;
-primitive 'AMS1117-33_0_SOT229P700X180-4N_AMS1117-5V';
+primitive 'AMS1117-33_2_SOT229P700X180-4N_AMS1117-5V';
   pin
     'ADJ/GND':
       PIN_NUMBER='(1)';
@@ -1316,15 +1334,17 @@ primitive 'AMS1117-33_0_SOT229P700X180-4N_AMS1117-5V';
     'VIN':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(*)';
+    'TAB':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
   end_pin;
   body
-    PART_NAME='AMS1117-33_0';
+    PART_NAME='AMS1117-33_2';
     JEDEC_TYPE='SOT229P700X180-4N';
     VALUE='AMS1117-5V';
-    NC_PINS='(4)';
   end_body;
 end_primitive;
-primitive 'AMS1117-33_0_SOT229P700X180-4N_AMS1117-33';
+primitive 'AMS1117-33_2_SOT229P700X180-4N_AMS1117-33';
   pin
     'ADJ/GND':
       PIN_NUMBER='(1)';
@@ -1335,12 +1355,14 @@ primitive 'AMS1117-33_0_SOT229P700X180-4N_AMS1117-33';
     'VIN':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(*)';
+    'TAB':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
   end_pin;
   body
-    PART_NAME='AMS1117-33_0';
+    PART_NAME='AMS1117-33_2';
     JEDEC_TYPE='SOT229P700X180-4N';
     VALUE='AMS1117-33';
-    NC_PINS='(4)';
   end_body;
 end_primitive;
 END.

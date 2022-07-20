@@ -151,10 +151,7 @@
       (Path "Design Resources" "Library"
          "c:\git\bldc platform\hardware\orcad project\power_board\sch\symbol_lib\bldc_motor_driver_lib.olb")
       (Path "Layout")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "c:\git\bldc platform\hardware\orcad project\power_board\sch\bldc_motor_driver.dsn"
-         "supply" "100v_buck"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -164,11 +161,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
         (Scroll "872 914")
         (Zoom "284"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
         (Scroll "0 262")
         (Zoom "134")
         (Occurrence "/S2"))
@@ -179,11 +176,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
         (Scroll "65 0")
         (Zoom "164"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
         (Scroll "0 396")
         (Zoom "124")
         (Occurrence "/S2"))
@@ -194,8 +191,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
-        (Scroll "-91 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
+        (Scroll "-194 0")
         (Zoom "59")
         (Occurrence "/"))
       (Path
@@ -205,12 +202,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
-        (Scroll "-93 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
+        (Scroll "-196 0")
         (Zoom "100"))
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1194 24 602")
-        (Scroll "-93 0")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1400 24 602")
+        (Scroll "-196 0")
         (Zoom "100")
         (Occurrence "/S5"))
       (Path
@@ -220,11 +217,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
         (Scroll "0 154")
         (Zoom "144"))
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
         (Scroll "0 189")
         (Zoom "154")
         (Occurrence "/S2"))
@@ -235,8 +232,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
-        (Scroll "-93 40")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
+        (Scroll "-196 0")
         (Zoom "83")
         (Occurrence "/S1"))
       (Path
@@ -246,8 +243,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
-        (Scroll "-93 129")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
+        (Scroll "-196 0")
         (Zoom "83")
         (Occurrence "/S3"))
       (Path
@@ -257,9 +254,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
-        (Scroll "-70 162")
-        (Zoom "87")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
+        (Scroll "2631 191")
+        (Zoom "348")
         (Occurrence "/S5"))
       (Path
          "C:\GIT\BLDC PLATFORM\HARDWARE\ORCAD PROJECT\POWER_BOARD\SCH\BLDC_MOTOR_DRIVER.DSN")
@@ -268,8 +265,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1194 24 602")
-        (Scroll "0 0")
+        (Placement "44 0 1 -1 -1 5 24 5 1400 24 602")
+        (Scroll "-97 0")
         (Zoom "100")
         (Occurrence "/S4"))
       (Path
@@ -279,7 +276,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1194 24 602")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1400 24 602")
         (Scroll "88 68")
         (Zoom "166")
         (Occurrence "/S1"))
