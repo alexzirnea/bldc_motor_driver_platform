@@ -118,7 +118,7 @@ static void mcdrive_closedLoopHandler()
     switch(sysflags.commstep)
     {
         case COMMSTATE_BLANKING:
-            if(pwm_counts > zc_pwm_counts >> 1 - zc_pwm_counts>>2)
+            if(pwm_counts > ((zc_pwm_counts >> 1) - (zc_pwm_counts>>2)))
             {
             mcdrive_enableBEMF_INT();
             sysflags.commstep = COMMSTATE_WAITZC;

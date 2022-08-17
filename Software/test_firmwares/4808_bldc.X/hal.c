@@ -12,60 +12,60 @@ void HAL_setDuty(uint8_t duty)
 void HAL_drive_AH_BL()
 {
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
-    TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP0EN_bm | 0x7;
+    //TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP0EN_bm | 0x7;
     PORTA.OUTCLR = 0x3F;//clear all three outputs for sanity
-    IO_PA0_SetHigh();
+   // PA0_SetHigh();
     BL_SetHigh();
 }
 
 void HAL_drive_AH_CL()
 {
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
-    TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP0EN_bm | 0x7;
+    //TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP0EN_bm | 0x7;
     PORTA.OUTCLR = 0x3F;//clear all three outputs for sanity
-    IO_PA0_SetHigh();
+  //  PA0_SetHigh();
     CL_SetHigh();
 }
 
 void HAL_drive_BH_CL()
 {
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
-    TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP1EN_bm | 0x7;
+    //TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP1EN_bm | 0x7;
     PORTA.OUTCLR = 0x3F;//clear all three outputs for sanity
-    IO_PA1_SetHigh();
+  //  PA1_SetHigh();
     CL_SetHigh();
 }
 
 void HAL_drive_BH_AL()
 {
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
-    TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP1EN_bm | 0x7;
+    //TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP1EN_bm | 0x7;
     PORTA.OUTCLR = 0x3F;//clear all three outputs for sanity
-    IO_PA1_SetHigh();
+ //   PA1_SetHigh();
     AL_SetHigh();
 }
 
 void HAL_drive_CH_AL()
 {
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
-    TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP2EN_bm | 0x7;
+    //TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP2EN_bm | 0x7;
     PORTA.OUTCLR = 0x3F;//clear all three outputs for sanity
-    PA2_SetHigh();
+ //   PA2_SetHigh();
     AL_SetHigh(); 
 }
 
 void HAL_drive_CH_BL()
 {
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
-    TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP2EN_bm | 0x7;
+    //TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP2EN_bm | 0x7;
     PORTA.OUTCLR = 0x3F;//clear all three outputs for sanity
-    PA2_SetHigh();
+ //   PA2_SetHigh();
     BL_SetHigh();
 }
 
 void HAL_drive_OFF()
 {
-    TCA0.SINGLE.CTRLB = 0x7;
+    //TCA0.SINGLE.CTRLB = 0x7;
     PORTA.OUTCLR = 0x3F;
 }
 

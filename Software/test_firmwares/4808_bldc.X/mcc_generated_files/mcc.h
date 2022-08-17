@@ -41,13 +41,13 @@ extern "C" {
 #include "utils/compiler.h"
 #include "include/pin_manager.h"
 #include "include/adc0.h"
-#include "include/cpuint.h"
-#include "include/vref.h"
-#include "include/ac0.h"
-#include "include/ccl.h"
-#include "include/tcb0.h"
 #include "include/tca0.h"
+#include "include/ccl.h"
 #include "include/evsys.h"
+#include "include/ac0.h"
+#include "include/tcb0.h"
+#include "include/vref.h"
+#include "include/cpuint.h"
 #include "config/clock_config.h"
 
 /**

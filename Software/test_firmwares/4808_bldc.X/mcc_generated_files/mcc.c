@@ -92,8 +92,8 @@ int8_t CLKCTRL_Initialize()
     //RUNSTDBY disabled; 
     ccp_write_io((void*)&(CLKCTRL.OSC20MCTRLA),0x00);
 
-    //PDIV 6X; PEN disabled; 
-    ccp_write_io((void*)&(CLKCTRL.MCLKCTRLB),0x10);
+    //PDIV 6X; PEN enabled; 
+    ccp_write_io((void*)&(CLKCTRL.MCLKCTRLB),0x11);
 
     //CLKOUT disabled; CLKSEL OSC20M; 
     ccp_write_io((void*)&(CLKCTRL.MCLKCTRLA),0x00);
