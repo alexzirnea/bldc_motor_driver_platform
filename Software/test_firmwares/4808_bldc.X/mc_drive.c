@@ -9,8 +9,8 @@
 #define COMMSTATE_ALIGN 3
 
 #define BLANKING_PWM_PERIODS 30
-#define BEMF_FILTER_COEFF 16
-#define ADVANCE_ANGLE 5
+#define BEMF_FILTER_COEFF 2
+#define ADVANCE_ANGLE 0
 #define ALIGN_TIME 10000UL
 
 #define TARGET_SPEED 40
@@ -34,6 +34,7 @@ static void mcdrive_ZC_INT_cb();
 static void mcdrive_trigStep();
 static void mcdrive_setNextStep();
 static void mcdrive_enableBEMF_INT();
+static void mcdrive_faultHandler();
 
 void MCDRIVE_init()
 {
@@ -44,7 +45,7 @@ void MCDRIVE_init()
  sysflags.zc_valid = 1;
  sysflags.mcstate = MCSTATE_OPENLOOP;
  sysflags.commstep = COMMSTATE_ALIGN;
- HAL_setDuty(30);
+ HAL_setDuty(160);
  mcdrive_trigStep();
  mcdrive_enableBEMF_INT();
 }
@@ -69,13 +70,16 @@ uint16_t MCDRIVE_getSpeed()
 
 void MCDRIVE_setSpeed(uint8_t duty)
 {
+    if(sysflags.mcstate == MCSTATE_CLOSEDLOOP)
+    {
     HAL_setDuty(duty);
+    }
 }
 
 
 static void mcdrive_openLoopHandler()
 {
-    static volatile uint16_t PWM_comm = 300, cnt = 0;
+    static volatile uint16_t PWM_comm = 230, cnt = 0;
     static volatile uint8_t blanking = 0;
     
     cnt++;
@@ -100,20 +104,21 @@ static void mcdrive_openLoopHandler()
         }
         else
         {
-        if(PWM_comm <= TARGET_SPEED)
-        {
-            HAL_drive_OFF();
-            for(uint8_t i = 0; i<1; i++)
+            if(PWM_comm <= TARGET_SPEED)
             {
-            mcdrive_setNextStep();
+                HAL_drive_OFF();
+                for(uint8_t i = 0; i<1; i++)
+                {
+                    mcdrive_setNextStep();
+                }
+                blanking = 1;
             }
-            blanking = 1;
-        }
-        else {
-        mcdrive_setNextStep();
-        mcdrive_trigStep();
-        PWM_comm -= 2;
-        }
+            else 
+            {
+                mcdrive_setNextStep();
+                mcdrive_trigStep();
+                PWM_comm -= 2;
+            }
         }
         cnt = 0;
     }
@@ -124,6 +129,11 @@ static void mcdrive_closedLoopHandler()
 {
     static volatile uint16_t pwm_counts = 0, zc_pwm_counts = TARGET_SPEED, adv_zc_pwm_counts;
         pwm_counts ++;
+    if(pwm_counts > (16*zc_pwm_counts))
+    {
+        mcdrive_faultHandler();
+        return;
+    }
     switch(sysflags.commstep)
     {
         case COMMSTATE_BLANKING:
@@ -161,6 +171,8 @@ static void mcdrive_closedLoopHandler()
 
 static void mcdrive_faultHandler()
 {
+    sysflags.mcstate = MCSTATE_FAULT;
+    HAL_drive_OFF();
 }
 
 static void mcdrive_stopHandler()

@@ -97,6 +97,6 @@ void HAL_init()
 
 void HAL_lightRGB(uint8_t color)
 {
-    HAL_RGB_PORT.OUTCLR = HAL_RGB_MASK;
-    HAL_RGB_PORT.OUTSET = color;
+    HAL_RGB_PORT.OUTSET = HAL_RGB_MASK;
+    HAL_RGB_PORT.OUTCLR = color;
 }

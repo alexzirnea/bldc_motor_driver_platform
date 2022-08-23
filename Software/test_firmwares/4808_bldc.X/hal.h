@@ -19,8 +19,8 @@ extern "C" {
 #define PHASE_C ((0x3<<3) | AC_MUXNEG0_bm)
 
 #define HAL_RGB_PORT        (PORTC)
-#define HAL_RGB_RED_PIN     (1 << 2)
-#define HAL_RGB_BLUE_PIN    (1 << 0)
+#define HAL_RGB_RED_PIN     (1 << 0)
+#define HAL_RGB_BLUE_PIN    (1 << 2)
 #define HAL_RGB_GREEN_PIN   (1 << 1)
 #define HAL_RGB_MASK        (HAL_RGB_RED_PIN | HAL_RGB_BLUE_PIN | HAL_RGB_GREEN_PIN)   
     
