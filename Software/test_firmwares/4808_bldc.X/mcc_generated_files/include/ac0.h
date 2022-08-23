@@ -40,6 +40,9 @@
 extern "C" {
 #endif
 
+    
+typedef void (*AC_cb_t)(void);
+void AC0_SetCmpIsrCallback(AC_cb_t cb);
 /**
  * \brief Initialize Analog Comparator
  *

@@ -3,20 +3,17 @@
 
 #define STEP_NUMBER 6
 
-#define MCSTATE_OPENLOOP 3
-#define MCSTATE_CLOSEDLOOP 2
-#define MCSTATE_STOP 0
-#define MCSTATE_FAULT 1
-
 #define COMMSTATE_BLANKING 0
 #define COMMSTATE_WAITZC 1
 #define COMMSTATE_WAITCOMM 2
+#define COMMSTATE_ALIGN 3
 
 #define BLANKING_PWM_PERIODS 30
 #define BEMF_FILTER_COEFF 16
 #define ADVANCE_ANGLE 5
+#define ALIGN_TIME 10000UL
 
-#define TARGET_SPEED 60
+#define TARGET_SPEED 40
 
 struct flags
 {
@@ -46,7 +43,7 @@ void MCDRIVE_init()
  sysflags.direction = 1;
  sysflags.zc_valid = 1;
  sysflags.mcstate = MCSTATE_OPENLOOP;
- sysflags.commstep = COMMSTATE_WAITZC;
+ sysflags.commstep = COMMSTATE_ALIGN;
  HAL_setDuty(30);
  mcdrive_trigStep();
  mcdrive_enableBEMF_INT();
@@ -62,7 +59,7 @@ void MCDRIVE_stopMotor()
 
 uint8_t MCDRIVE_getState()
 {
-
+    return sysflags.mcstate;
 }
 
 uint16_t MCDRIVE_getSpeed()
@@ -70,7 +67,7 @@ uint16_t MCDRIVE_getSpeed()
 
 }
 
-MCDRIVE_setSpeed(uint8_t duty)
+void MCDRIVE_setSpeed(uint8_t duty)
 {
     HAL_setDuty(duty);
 }
@@ -78,15 +75,27 @@ MCDRIVE_setSpeed(uint8_t duty)
 
 static void mcdrive_openLoopHandler()
 {
-    static volatile uint16_t PWM_comm = 500, cnt = 0;
+    static volatile uint16_t PWM_comm = 300, cnt = 0;
     static volatile uint8_t blanking = 0;
     
     cnt++;
-    if(cnt >= PWM_comm)
+    
+    if(COMMSTATE_ALIGN == sysflags.commstep)
+    {
+        mcdrive_trigStep();
+        if (cnt > ALIGN_TIME)
+        {
+            cnt = 0;
+            sysflags.commstep = COMMSTATE_WAITZC;
+        }
+    }
+    
+    else if(cnt >= PWM_comm)
     {
         if(blanking)
         {
             sysflags.mcstate = MCSTATE_CLOSEDLOOP;
+            sysflags.commstep = COMMSTATE_WAITZC;
             mcdrive_enableBEMF_INT();
         }
         else
@@ -226,32 +235,32 @@ static void mcdrive_enableBEMF_INT()
         case 0:
             HAL_AC_selectPhase(PHASE_C);
             HAL_setBEMF_FallingEdgeINT();
-            //HAL_drive_AH_BL();
+            HAL_drive_AH_BL();
             break;           
         case 1:
             HAL_AC_selectPhase(PHASE_B);
             HAL_setBEMF_RisingEdgeINT();
-            //HAL_drive_AH_CL();
+            HAL_drive_AH_CL();
             break;            
         case 2:
             HAL_AC_selectPhase(PHASE_A);
             HAL_setBEMF_FallingEdgeINT();
-            //HAL_drive_BH_CL();
+            HAL_drive_BH_CL();
             break;           
         case 3:
             HAL_AC_selectPhase(PHASE_C);
             HAL_setBEMF_RisingEdgeINT();
-            //HAL_drive_BH_AL();
+            HAL_drive_BH_AL();
             break;           
         case 4:
             HAL_AC_selectPhase(PHASE_B);
             HAL_setBEMF_FallingEdgeINT();
-            //HAL_drive_CH_AL();
+            HAL_drive_CH_AL();
             break;          
         case 5:
             HAL_AC_selectPhase(PHASE_A);
             HAL_setBEMF_RisingEdgeINT();
-            //HAL_drive_CH_BL();
+            HAL_drive_CH_BL();
             break;           
         default:
             //something awfully wrong happened here
@@ -266,32 +275,32 @@ static void mcdrive_enableBEMF_INT()
         case 0:
             HAL_AC_selectPhase(PHASE_C);
             HAL_setBEMF_RisingEdgeINT();
-            //HAL_drive_AH_BL();
+            HAL_drive_AH_BL();
             break;            
         case 1:
             HAL_AC_selectPhase(PHASE_B);
             HAL_setBEMF_FallingEdgeINT();
-            //HAL_drive_AH_CL();
+            HAL_drive_AH_CL();
             break;           
         case 2:
             HAL_AC_selectPhase(PHASE_A);
             HAL_setBEMF_RisingEdgeINT();
-            ///HAL_drive_BH_CL();
+            HAL_drive_BH_CL();
             break;           
         case 3:
             HAL_AC_selectPhase(PHASE_C);
             HAL_setBEMF_FallingEdgeINT();
-            //HAL_drive_BH_AL();
+            HAL_drive_BH_AL();
             break;           
         case 4:
             HAL_AC_selectPhase(PHASE_B);
             HAL_setBEMF_RisingEdgeINT();
-            //HAL_drive_CH_AL();
+            HAL_drive_CH_AL();
             break;
         case 5:
             HAL_AC_selectPhase(PHASE_A);
             HAL_setBEMF_FallingEdgeINT();
-            //HAL_drive_CH_BL();
+            HAL_drive_CH_BL();
             break;         
         default:
             //something awfully wrong happened here
@@ -303,7 +312,6 @@ static void mcdrive_enableBEMF_INT()
 
 static void mcdrive_PWM_cb()
 {   
-    PA6_Toggle();
     switch(sysflags.mcstate)
     {
         case MCSTATE_OPENLOOP:
@@ -326,11 +334,10 @@ static void mcdrive_PWM_cb()
 }
 
 static void mcdrive_ZC_INT_cb()
-{  
-    
+{    
     sysflags.zc_valid = 1;
     mcdrive_setNextStep();
-    //mcdrive_enableBEMF_INT();
-    //mcdrive_trigStep();
+//    mcdrive_enableBEMF_INT();
+//    mcdrive_trigStep();
     HAL_disableBEMF_INT();
 }

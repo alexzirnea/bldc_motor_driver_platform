@@ -14,9 +14,14 @@
 extern "C" {
 #endif
 
+#define MCSTATE_OPENLOOP 3
+#define MCSTATE_CLOSEDLOOP 2
+#define MCSTATE_STOP 0
+#define MCSTATE_FAULT 1
+    
 void MCDRIVE_init();
 void MCDRIVE_setSpeed(uint8_t duty);
-
+uint8_t MCDRIVE_getState();
 
 #ifdef	__cplusplus
 }

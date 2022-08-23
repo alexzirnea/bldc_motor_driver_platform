@@ -33,12 +33,39 @@
 
 #include "../include/ac0.h"
 
+void (*AC0_isr_cb)(void) = NULL;
+
+void AC0_SetCmpIsrCallback(AC_cb_t cb)
+{
+	AC0_isr_cb = cb;
+}
+
+ISR(AC0_AC_vect)
+{
+	/* Insert your TCB interrupt handling code */
+
+	/**
+	 * The interrupt flag is cleared by writing 1 to it, or when the Capture register
+	 * is read in Capture mode
+	 */
+	 if(AC0.STATUS & AC_CMP_bm)
+        {
+            if (AC0_isr_cb != NULL)
+            {
+                (*AC0_isr_cb)();
+            }
+
+            AC0.STATUS = AC_CMP_bm;
+        }
+	 
+}
+
 /**
  * \brief Initialize ac interface
  */
 int8_t AC0_Initialize()
 {
-    //CMP disabled; 
+    //CMP enabled; 
     AC0.INTCTRL = 0x00;
 
     //INVERT disabled; MUXPOS PIN3; MUXNEG PIN0; 
@@ -51,12 +78,4 @@ int8_t AC0_Initialize()
     AC0.DACREF = 0xFF;
 
     return 0;
-}
-
-ISR(AC0_AC_vect)
-{
-	/* Insert your AC interrupt handling code here */
-
-	/* The interrupt flag has to be cleared manually */
-	AC0.STATUS = AC_CMP_bm;
 }

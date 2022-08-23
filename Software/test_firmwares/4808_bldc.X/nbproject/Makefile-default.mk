@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=mcc_generated_files/src/pin_manager.c mcc_generated_files/src/ac0.c mcc_generated_files/src/adc0.c mcc_generated_files/src/tca0.c mcc_generated_files/src/vref.c mcc_generated_files/src/protected_io.S mcc_generated_files/src/ccl.c mcc_generated_files/src/cpuint.c mcc_generated_files/src/evsys.c mcc_generated_files/src/tcb0.c mcc_generated_files/mcc.c mcc_generated_files/device_config.c main.c hal.c mc_drive.c app.c
+SOURCEFILES_QUOTED_IF_SPACED=mcc_generated_files/src/pin_manager.c mcc_generated_files/src/ac0.c mcc_generated_files/src/adc0.c mcc_generated_files/src/tca0.c mcc_generated_files/src/protected_io.S mcc_generated_files/src/ccl.c mcc_generated_files/src/cpuint.c mcc_generated_files/src/evsys.c mcc_generated_files/src/tcb0.c mcc_generated_files/mcc.c mcc_generated_files/device_config.c main.c hal.c mc_drive.c app.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/mcc_generated_files/src/pin_manager.o ${OBJECTDIR}/mcc_generated_files/src/ac0.o ${OBJECTDIR}/mcc_generated_files/src/adc0.o ${OBJECTDIR}/mcc_generated_files/src/tca0.o ${OBJECTDIR}/mcc_generated_files/src/vref.o ${OBJECTDIR}/mcc_generated_files/src/protected_io.o ${OBJECTDIR}/mcc_generated_files/src/ccl.o ${OBJECTDIR}/mcc_generated_files/src/cpuint.o ${OBJECTDIR}/mcc_generated_files/src/evsys.o ${OBJECTDIR}/mcc_generated_files/src/tcb0.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/device_config.o ${OBJECTDIR}/main.o ${OBJECTDIR}/hal.o ${OBJECTDIR}/mc_drive.o ${OBJECTDIR}/app.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/src/ac0.o.d ${OBJECTDIR}/mcc_generated_files/src/adc0.o.d ${OBJECTDIR}/mcc_generated_files/src/tca0.o.d ${OBJECTDIR}/mcc_generated_files/src/vref.o.d ${OBJECTDIR}/mcc_generated_files/src/protected_io.o.d ${OBJECTDIR}/mcc_generated_files/src/ccl.o.d ${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d ${OBJECTDIR}/mcc_generated_files/src/evsys.o.d ${OBJECTDIR}/mcc_generated_files/src/tcb0.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/device_config.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/hal.o.d ${OBJECTDIR}/mc_drive.o.d ${OBJECTDIR}/app.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/mcc_generated_files/src/pin_manager.o ${OBJECTDIR}/mcc_generated_files/src/ac0.o ${OBJECTDIR}/mcc_generated_files/src/adc0.o ${OBJECTDIR}/mcc_generated_files/src/tca0.o ${OBJECTDIR}/mcc_generated_files/src/protected_io.o ${OBJECTDIR}/mcc_generated_files/src/ccl.o ${OBJECTDIR}/mcc_generated_files/src/cpuint.o ${OBJECTDIR}/mcc_generated_files/src/evsys.o ${OBJECTDIR}/mcc_generated_files/src/tcb0.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/device_config.o ${OBJECTDIR}/main.o ${OBJECTDIR}/hal.o ${OBJECTDIR}/mc_drive.o ${OBJECTDIR}/app.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/src/ac0.o.d ${OBJECTDIR}/mcc_generated_files/src/adc0.o.d ${OBJECTDIR}/mcc_generated_files/src/tca0.o.d ${OBJECTDIR}/mcc_generated_files/src/protected_io.o.d ${OBJECTDIR}/mcc_generated_files/src/ccl.o.d ${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d ${OBJECTDIR}/mcc_generated_files/src/evsys.o.d ${OBJECTDIR}/mcc_generated_files/src/tcb0.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/device_config.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/hal.o.d ${OBJECTDIR}/mc_drive.o.d ${OBJECTDIR}/app.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/mcc_generated_files/src/pin_manager.o ${OBJECTDIR}/mcc_generated_files/src/ac0.o ${OBJECTDIR}/mcc_generated_files/src/adc0.o ${OBJECTDIR}/mcc_generated_files/src/tca0.o ${OBJECTDIR}/mcc_generated_files/src/vref.o ${OBJECTDIR}/mcc_generated_files/src/protected_io.o ${OBJECTDIR}/mcc_generated_files/src/ccl.o ${OBJECTDIR}/mcc_generated_files/src/cpuint.o ${OBJECTDIR}/mcc_generated_files/src/evsys.o ${OBJECTDIR}/mcc_generated_files/src/tcb0.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/device_config.o ${OBJECTDIR}/main.o ${OBJECTDIR}/hal.o ${OBJECTDIR}/mc_drive.o ${OBJECTDIR}/app.o
+OBJECTFILES=${OBJECTDIR}/mcc_generated_files/src/pin_manager.o ${OBJECTDIR}/mcc_generated_files/src/ac0.o ${OBJECTDIR}/mcc_generated_files/src/adc0.o ${OBJECTDIR}/mcc_generated_files/src/tca0.o ${OBJECTDIR}/mcc_generated_files/src/protected_io.o ${OBJECTDIR}/mcc_generated_files/src/ccl.o ${OBJECTDIR}/mcc_generated_files/src/cpuint.o ${OBJECTDIR}/mcc_generated_files/src/evsys.o ${OBJECTDIR}/mcc_generated_files/src/tcb0.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/device_config.o ${OBJECTDIR}/main.o ${OBJECTDIR}/hal.o ${OBJECTDIR}/mc_drive.o ${OBJECTDIR}/app.o
 
 # Source Files
-SOURCEFILES=mcc_generated_files/src/pin_manager.c mcc_generated_files/src/ac0.c mcc_generated_files/src/adc0.c mcc_generated_files/src/tca0.c mcc_generated_files/src/vref.c mcc_generated_files/src/protected_io.S mcc_generated_files/src/ccl.c mcc_generated_files/src/cpuint.c mcc_generated_files/src/evsys.c mcc_generated_files/src/tcb0.c mcc_generated_files/mcc.c mcc_generated_files/device_config.c main.c hal.c mc_drive.c app.c
+SOURCEFILES=mcc_generated_files/src/pin_manager.c mcc_generated_files/src/ac0.c mcc_generated_files/src/adc0.c mcc_generated_files/src/tca0.c mcc_generated_files/src/protected_io.S mcc_generated_files/src/ccl.c mcc_generated_files/src/cpuint.c mcc_generated_files/src/evsys.c mcc_generated_files/src/tcb0.c mcc_generated_files/mcc.c mcc_generated_files/device_config.c main.c hal.c mc_drive.c app.c
 
 # Pack Options 
 PACK_COMPILER_OPTIONS=-I "${DFP_DIR}/include"
@@ -104,7 +104,7 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assembleWithPreprocess
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/mcc_generated_files/src/protected_io.o: mcc_generated_files/src/protected_io.S  .generated_files/flags/default/c96a8b55ed4c50c3fd5aa5b9d7f68b4e8ae2ad2d .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/protected_io.o: mcc_generated_files/src/protected_io.S  .generated_files/flags/default/50888e47520fe1c5d3c4d0511835f3e08cded4c3 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/protected_io.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/protected_io.o 
@@ -112,7 +112,7 @@ ${OBJECTDIR}/mcc_generated_files/src/protected_io.o: mcc_generated_files/src/pro
 	 ${MP_CC} $(MP_EXTRA_AS_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -DDEBUG  -x assembler-with-cpp -c -D__$(MP_PROCESSOR_OPTION)__  -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/protected_io.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/protected_io.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/protected_io.o -o ${OBJECTDIR}/mcc_generated_files/src/protected_io.o mcc_generated_files/src/protected_io.S  -DXPRJ_default=$(CND_CONF)  -Wa,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_AS_POST),-MD="${OBJECTDIR}/mcc_generated_files/src/protected_io.o.asm.d",--defsym=__ICD2RAM=1,--defsym=__MPLAB_DEBUG=1,--gdwarf-2,--defsym=__DEBUG=1
 	
 else
-${OBJECTDIR}/mcc_generated_files/src/protected_io.o: mcc_generated_files/src/protected_io.S  .generated_files/flags/default/87691270e413b89f7b747652560a7b412c665ecf .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/protected_io.o: mcc_generated_files/src/protected_io.S  .generated_files/flags/default/f059ac1726cc5b903bc45b10e7adf6e61fad96b6 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/protected_io.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/protected_io.o 
@@ -124,182 +124,170 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/mcc_generated_files/src/pin_manager.o: mcc_generated_files/src/pin_manager.c  .generated_files/flags/default/3d80c0bf780842c83d23a5056cb60b0d455f6f13 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/pin_manager.o: mcc_generated_files/src/pin_manager.c  .generated_files/flags/default/52e1511050f7bc541fad8657b2d82bdd294d4ccb .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o  -o ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o mcc_generated_files/src/pin_manager.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/ac0.o: mcc_generated_files/src/ac0.c  .generated_files/flags/default/88884795e76bb0314ba5ab45c82dea90d147832a .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/ac0.o: mcc_generated_files/src/ac0.c  .generated_files/flags/default/8f10757bf291b8fb2fc22ae07a8026745bd9ddd5 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/ac0.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/ac0.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/ac0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/ac0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/ac0.o  -o ${OBJECTDIR}/mcc_generated_files/src/ac0.o mcc_generated_files/src/ac0.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/adc0.o: mcc_generated_files/src/adc0.c  .generated_files/flags/default/e57ddbcab8faec17dea2b885741a1d4c068da36e .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/adc0.o: mcc_generated_files/src/adc0.c  .generated_files/flags/default/8548e52b9e9a5e1a013735abb100031aaa336a88 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/adc0.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/adc0.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/adc0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/adc0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/adc0.o  -o ${OBJECTDIR}/mcc_generated_files/src/adc0.o mcc_generated_files/src/adc0.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/tca0.o: mcc_generated_files/src/tca0.c  .generated_files/flags/default/7594611594716d9f2b931d9b1ea13abf89e77a8a .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/tca0.o: mcc_generated_files/src/tca0.c  .generated_files/flags/default/77a1af18e2273db4a1f5a9f0069189f3d7969cef .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/tca0.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/tca0.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/tca0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/tca0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/tca0.o  -o ${OBJECTDIR}/mcc_generated_files/src/tca0.o mcc_generated_files/src/tca0.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/vref.o: mcc_generated_files/src/vref.c  .generated_files/flags/default/da3b544fda21562159b04ab70c8cd0f151f3a568 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
-	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/src/vref.o.d 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/src/vref.o 
-	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/vref.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/vref.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/vref.o  -o ${OBJECTDIR}/mcc_generated_files/src/vref.o mcc_generated_files/src/vref.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
-	
-${OBJECTDIR}/mcc_generated_files/src/ccl.o: mcc_generated_files/src/ccl.c  .generated_files/flags/default/5597ba89c49159a3ede7068593d57ec28b609041 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/ccl.o: mcc_generated_files/src/ccl.c  .generated_files/flags/default/f975b4b71965f0a3966acad49cdc87064232b259 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/ccl.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/ccl.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/ccl.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/ccl.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/ccl.o  -o ${OBJECTDIR}/mcc_generated_files/src/ccl.o mcc_generated_files/src/ccl.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/cpuint.o: mcc_generated_files/src/cpuint.c  .generated_files/flags/default/b5ad922ff979471176ab0e6e6215ee903999608c .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/cpuint.o: mcc_generated_files/src/cpuint.c  .generated_files/flags/default/5ca9e31b82570c9add97918449b17056e093e22 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/cpuint.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/cpuint.o  -o ${OBJECTDIR}/mcc_generated_files/src/cpuint.o mcc_generated_files/src/cpuint.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/evsys.o: mcc_generated_files/src/evsys.c  .generated_files/flags/default/faa9e2bd9b807f8b1f802b6974c67d7b616d3dec .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/evsys.o: mcc_generated_files/src/evsys.c  .generated_files/flags/default/284d7f11c7e0731a89326bf6b16cf5a351a77d78 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/evsys.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/evsys.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/evsys.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/evsys.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/evsys.o  -o ${OBJECTDIR}/mcc_generated_files/src/evsys.o mcc_generated_files/src/evsys.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/tcb0.o: mcc_generated_files/src/tcb0.c  .generated_files/flags/default/34c0389d3c986fac4777a5bdb7480a4ef9e3d2b2 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/tcb0.o: mcc_generated_files/src/tcb0.c  .generated_files/flags/default/6244a8f2201ebfdfbe8193f1a6a286e0c50aa084 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/tcb0.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/tcb0.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/tcb0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/tcb0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/tcb0.o  -o ${OBJECTDIR}/mcc_generated_files/src/tcb0.o mcc_generated_files/src/tcb0.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/default/1f9887e1dc9bb40ed883e9367c9a5ed8a3bc7067 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/default/b22c1624454d03b2ebd8daecec6661f520a904ed .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/mcc.o.d" -MT "${OBJECTDIR}/mcc_generated_files/mcc.o.d" -MT ${OBJECTDIR}/mcc_generated_files/mcc.o  -o ${OBJECTDIR}/mcc_generated_files/mcc.o mcc_generated_files/mcc.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/device_config.o: mcc_generated_files/device_config.c  .generated_files/flags/default/f4de5485c791b7b8f285fa6f10e180abed681a24 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/device_config.o: mcc_generated_files/device_config.c  .generated_files/flags/default/d6a54d86216da0d29c4e89b0efec6a18c175394e .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/device_config.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/device_config.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/device_config.o.d" -MT "${OBJECTDIR}/mcc_generated_files/device_config.o.d" -MT ${OBJECTDIR}/mcc_generated_files/device_config.o  -o ${OBJECTDIR}/mcc_generated_files/device_config.o mcc_generated_files/device_config.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/cf5486f6050373b5f3eca94fb1de7e61fa18c502 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/d9ad384c476be914c133862669b004c5e4472694 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/main.o.d" -MT "${OBJECTDIR}/main.o.d" -MT ${OBJECTDIR}/main.o  -o ${OBJECTDIR}/main.o main.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/hal.o: hal.c  .generated_files/flags/default/b1c81ca5ffa856ae3ecb6de8fc8a5745c1dae5c9 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/hal.o: hal.c  .generated_files/flags/default/e0484bf4c4b1c3d144acd2fcc299ffc68ce7da91 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/hal.o.d 
 	@${RM} ${OBJECTDIR}/hal.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/hal.o.d" -MT "${OBJECTDIR}/hal.o.d" -MT ${OBJECTDIR}/hal.o  -o ${OBJECTDIR}/hal.o hal.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mc_drive.o: mc_drive.c  .generated_files/flags/default/2eb576da7c5c91f9f77feb93b8687a6af98dca8b .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mc_drive.o: mc_drive.c  .generated_files/flags/default/f33e7b2a6475e02959b7dc295c24bca7488e785 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/mc_drive.o.d 
 	@${RM} ${OBJECTDIR}/mc_drive.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mc_drive.o.d" -MT "${OBJECTDIR}/mc_drive.o.d" -MT ${OBJECTDIR}/mc_drive.o  -o ${OBJECTDIR}/mc_drive.o mc_drive.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/app.o: app.c  .generated_files/flags/default/70beea5ddcb297abf3ec9fb78ff92c35a3b91c4b .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/app.o: app.c  .generated_files/flags/default/d732d2c5c1f34e8373c551a421a3ac3f3ab6d7e1 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/app.o.d 
 	@${RM} ${OBJECTDIR}/app.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/app.o.d" -MT "${OBJECTDIR}/app.o.d" -MT ${OBJECTDIR}/app.o  -o ${OBJECTDIR}/app.o app.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
 else
-${OBJECTDIR}/mcc_generated_files/src/pin_manager.o: mcc_generated_files/src/pin_manager.c  .generated_files/flags/default/e1f599b45a4040aeb96e02e6a7dce457761a09ff .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/pin_manager.o: mcc_generated_files/src/pin_manager.c  .generated_files/flags/default/12c37fbddb4649098656895f69ed82812443c74a .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/pin_manager.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o  -o ${OBJECTDIR}/mcc_generated_files/src/pin_manager.o mcc_generated_files/src/pin_manager.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/ac0.o: mcc_generated_files/src/ac0.c  .generated_files/flags/default/aa5ceeae9101738dc7652cda55b039c0ab2c24a0 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/ac0.o: mcc_generated_files/src/ac0.c  .generated_files/flags/default/cbdd4ef0354fe9f207b2a9d03b8d6f010cd891fd .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/ac0.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/ac0.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/ac0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/ac0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/ac0.o  -o ${OBJECTDIR}/mcc_generated_files/src/ac0.o mcc_generated_files/src/ac0.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/adc0.o: mcc_generated_files/src/adc0.c  .generated_files/flags/default/84261ecef5cdb69b689acdffd56441afe1b524d5 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/adc0.o: mcc_generated_files/src/adc0.c  .generated_files/flags/default/b133679fdf1b572492ce87191a110e5e94212feb .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/adc0.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/adc0.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/adc0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/adc0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/adc0.o  -o ${OBJECTDIR}/mcc_generated_files/src/adc0.o mcc_generated_files/src/adc0.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/tca0.o: mcc_generated_files/src/tca0.c  .generated_files/flags/default/e44104970b8e85fe36fdca94f14e4c092def4553 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/tca0.o: mcc_generated_files/src/tca0.c  .generated_files/flags/default/b6c4e53280fac0f34c45c9daefdfaae44573fb83 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/tca0.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/tca0.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/tca0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/tca0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/tca0.o  -o ${OBJECTDIR}/mcc_generated_files/src/tca0.o mcc_generated_files/src/tca0.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/vref.o: mcc_generated_files/src/vref.c  .generated_files/flags/default/e60979a83ee956df69a2490971e9550717b24d5e .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
-	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/src/vref.o.d 
-	@${RM} ${OBJECTDIR}/mcc_generated_files/src/vref.o 
-	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/vref.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/vref.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/vref.o  -o ${OBJECTDIR}/mcc_generated_files/src/vref.o mcc_generated_files/src/vref.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
-	
-${OBJECTDIR}/mcc_generated_files/src/ccl.o: mcc_generated_files/src/ccl.c  .generated_files/flags/default/184a397fec1eebe817884d4c7e413e90993b0e2b .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/ccl.o: mcc_generated_files/src/ccl.c  .generated_files/flags/default/cd2ad177a2878fc7c8de52c8aa45fdfa2f234fbe .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/ccl.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/ccl.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/ccl.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/ccl.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/ccl.o  -o ${OBJECTDIR}/mcc_generated_files/src/ccl.o mcc_generated_files/src/ccl.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/cpuint.o: mcc_generated_files/src/cpuint.c  .generated_files/flags/default/e7fea11723b39092ce375775cb3b334ac6f2220e .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/cpuint.o: mcc_generated_files/src/cpuint.c  .generated_files/flags/default/36be8bb10123951619c1eabc8891f5287ee0ae07 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/cpuint.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/cpuint.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/cpuint.o  -o ${OBJECTDIR}/mcc_generated_files/src/cpuint.o mcc_generated_files/src/cpuint.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/evsys.o: mcc_generated_files/src/evsys.c  .generated_files/flags/default/a0cd38ba56f5f90842664b8a2c5960e0078968db .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/evsys.o: mcc_generated_files/src/evsys.c  .generated_files/flags/default/dc6b26b93d5f7b8dc8e4aa7d0aafabac2b6c96d0 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/evsys.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/evsys.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/evsys.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/evsys.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/evsys.o  -o ${OBJECTDIR}/mcc_generated_files/src/evsys.o mcc_generated_files/src/evsys.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/src/tcb0.o: mcc_generated_files/src/tcb0.c  .generated_files/flags/default/e1dabcfaddcac21783f68b6d5d01fb68d93fd8ef .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/src/tcb0.o: mcc_generated_files/src/tcb0.c  .generated_files/flags/default/7f25050f1eb5fb59a155e2eb02d9976c1bef5a1a .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/src" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/tcb0.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/src/tcb0.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/src/tcb0.o.d" -MT "${OBJECTDIR}/mcc_generated_files/src/tcb0.o.d" -MT ${OBJECTDIR}/mcc_generated_files/src/tcb0.o  -o ${OBJECTDIR}/mcc_generated_files/src/tcb0.o mcc_generated_files/src/tcb0.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/default/2ca1b1e5923c9c034f99c888d7a8899ef05a88a4 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/default/24a42b1c649692f38411048a79324cc7f4a76d79 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/mcc.o.d" -MT "${OBJECTDIR}/mcc_generated_files/mcc.o.d" -MT ${OBJECTDIR}/mcc_generated_files/mcc.o  -o ${OBJECTDIR}/mcc_generated_files/mcc.o mcc_generated_files/mcc.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mcc_generated_files/device_config.o: mcc_generated_files/device_config.c  .generated_files/flags/default/db92494d922a65f2d05848b9a09eeaff66f08145 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mcc_generated_files/device_config.o: mcc_generated_files/device_config.c  .generated_files/flags/default/9115560837025d9320e16b267fbd5cbe39e6bf1c .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/device_config.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/device_config.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mcc_generated_files/device_config.o.d" -MT "${OBJECTDIR}/mcc_generated_files/device_config.o.d" -MT ${OBJECTDIR}/mcc_generated_files/device_config.o  -o ${OBJECTDIR}/mcc_generated_files/device_config.o mcc_generated_files/device_config.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/cece5f0402c572c8e7b2f5f478675a34819796e6 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/29321056357779b3fae9d422db9c4532bd09f1af .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/main.o.d" -MT "${OBJECTDIR}/main.o.d" -MT ${OBJECTDIR}/main.o  -o ${OBJECTDIR}/main.o main.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/hal.o: hal.c  .generated_files/flags/default/c50191096bd016bb7f19468bb6b5c82871c5e717 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/hal.o: hal.c  .generated_files/flags/default/bd9812d6f9316a2f6ab30040f98ac6870b1d99ce .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/hal.o.d 
 	@${RM} ${OBJECTDIR}/hal.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/hal.o.d" -MT "${OBJECTDIR}/hal.o.d" -MT ${OBJECTDIR}/hal.o  -o ${OBJECTDIR}/hal.o hal.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/mc_drive.o: mc_drive.c  .generated_files/flags/default/69aeeac0b4bd697196c39ac6c64711f5fb5d70a3 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/mc_drive.o: mc_drive.c  .generated_files/flags/default/468614d7606219bdee25664be2c69811ec3e53bf .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/mc_drive.o.d 
 	@${RM} ${OBJECTDIR}/mc_drive.o 
 	 ${MP_CC}  $(MP_EXTRA_CC_PRE) -mmcu=atmega4808 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/mc_drive.o.d" -MT "${OBJECTDIR}/mc_drive.o.d" -MT ${OBJECTDIR}/mc_drive.o  -o ${OBJECTDIR}/mc_drive.o mc_drive.c  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/app.o: app.c  .generated_files/flags/default/abe53c0fc0bc60da13fe7f1136c272dce252e4c8 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
+${OBJECTDIR}/app.o: app.c  .generated_files/flags/default/50bccad401b413c5254cfc3662ce363ba0c3a7e4 .generated_files/flags/default/6271d6bb391491ff4651685f954d7efa6a65a3bd
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/app.o.d 
 	@${RM} ${OBJECTDIR}/app.o 
