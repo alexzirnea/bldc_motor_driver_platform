@@ -45,6 +45,8 @@ void HAL_brake_NonRegen();
 void HAL_AC_selectPhase(uint8_t phase);
 void HAL_init();
 void HAL_lightRGB(uint8_t color);
+uint8_t HAL_getUSER1Level(void);
+uint8_t HAL_getUSER2Level(void);
 
 #define HAL_set_ZC_INT_cb(X)        (CCL0_SetCaptIsrCallback(X))
 //#define HAL_set_ZC_INT_cb(X)        (AC0_SetCmpIsrCallback(X))

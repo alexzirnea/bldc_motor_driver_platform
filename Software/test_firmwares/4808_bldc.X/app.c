@@ -3,21 +3,66 @@
 #include "mc_drive.h"
 #include "util/delay.h"
 
+#define START_STOP_BUTTON_LEVEL() (HAL_getUSER1Level())
+#define CHANGE_DIR_BUTTON_LEVEL() (HAL_getUSER2Level())
+
 static void app_adcResCb();
 static void app_testRGB(void);
+
+uint8_t prev_START_STOP_level;
+uint8_t prev_CHANGE_DIR_level;
 
 void APP_init()
 {
 HAL_set_Pot_INT_cb(&app_adcResCb);
 HAL_ADC_init();
 HAL_lightRGB(HAL_RGB_OFF);
+prev_START_STOP_level = START_STOP_BUTTON_LEVEL();
+prev_CHANGE_DIR_level = CHANGE_DIR_BUTTON_LEVEL(); 
 }
 
 void APP_run()
 {
     uint8_t motor_state;
     static uint8_t motor_state_old=0xFF;
+    uint8_t current_START_STOP_level, current_CHANGE_DIR_level;
+    
+    current_START_STOP_level = START_STOP_BUTTON_LEVEL();
+    current_CHANGE_DIR_level = CHANGE_DIR_BUTTON_LEVEL();
+    
     motor_state = MCDRIVE_getState();
+    
+    if(current_START_STOP_level != prev_START_STOP_level)
+    {
+        prev_START_STOP_level = current_START_STOP_level;
+        if(!current_START_STOP_level)
+        {
+            switch(motor_state)
+        {
+            case MCSTATE_OPENLOOP:
+                MCDRIVE_stopMotor();
+            break;
+            
+            case MCSTATE_CLOSEDLOOP:
+                MCDRIVE_stopMotor();
+            break;
+            
+            case MCSTATE_STOP:
+                MCDRIVE_startMotor();
+            break;
+            
+            case MCSTATE_FAULT:
+                MCDRIVE_stopMotor();
+            break;
+            
+            default:
+                MCDRIVE_stopMotor();
+            break;
+        }
+            
+        }
+        
+    }
     if(motor_state != motor_state_old)
     {
         motor_state_old = motor_state;

@@ -22,6 +22,8 @@ extern "C" {
 void MCDRIVE_init();
 void MCDRIVE_setSpeed(uint8_t duty);
 uint8_t MCDRIVE_getState();
+void MCDRIVE_startMotor();
+void MCDRIVE_stopMotor();
 
 #ifdef	__cplusplus
 }

@@ -100,3 +100,13 @@ void HAL_lightRGB(uint8_t color)
     HAL_RGB_PORT.OUTSET = HAL_RGB_MASK;
     HAL_RGB_PORT.OUTCLR = color;
 }
+
+uint8_t HAL_getUSER1Level(void)
+{
+    return USER1_GetValue();
+}
+
+uint8_t HAL_getUSER2Level(void)
+{
+    return USER2_GetValue();
+}
