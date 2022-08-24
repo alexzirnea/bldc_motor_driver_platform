@@ -50,6 +50,7 @@ static void mcdrive_faultHandler();
 void MCDRIVE_init()
 {
     sysflags.mcstate = MCSTATE_STOP;
+    sysflags.direction =  MCDIR_CW;
 }
 
 void mcdrive_initStartup()
@@ -57,7 +58,6 @@ void mcdrive_initStartup()
     HAL_set_ZC_INT_cb(&mcdrive_ZC_INT_cb);
     HAL_set_PWM_PER_INT_cb(&mcdrive_PWM_cb);
     sysflags.comm_pending = 0;
-    sysflags.direction = 1;
     sysflags.zc_valid = 1;
     sysflags.mcstate = MCSTATE_OPENLOOP;
     sysflags.commstep = COMMSTATE_ALIGN;
@@ -97,6 +97,19 @@ uint16_t MCDRIVE_getSpeed()
 
 }
 
+uint8_t MCDRIVE_getDirection()
+{
+   return sysflags.direction ;
+}
+
+void MCDRIVE_setDirection(uint8_t direction)
+{
+    if(sysflags.mcstate == MCSTATE_STOP)
+    {
+        sysflags.direction = direction;
+    }
+}
+
 void MCDRIVE_setSpeed(uint8_t duty)
 {
     uint8_t mapped_duty = map(duty, MIN_IN_DUTY, MAX_IN_DUTY, MIN_DUTY, MAX_DUTY);
@@ -124,7 +137,6 @@ static void mcdrive_openLoopHandler()
             {
                 sysflags.commstep = COMMSTATE_WAITZC;
             }
-            
         }
     }
     

@@ -18,12 +18,17 @@ extern "C" {
 #define MCSTATE_CLOSEDLOOP 2
 #define MCSTATE_STOP 0
 #define MCSTATE_FAULT 1
+
+#define MCDIR_CW 0
+#define MCDIR_CCW 1
     
 void MCDRIVE_init();
 void MCDRIVE_setSpeed(uint8_t duty);
 uint8_t MCDRIVE_getState();
 void MCDRIVE_startMotor();
 void MCDRIVE_stopMotor();
+uint8_t MCDRIVE_getDirection();
+void MCDRIVE_setDirection(uint8_t direction);
 
 #ifdef	__cplusplus
 }
