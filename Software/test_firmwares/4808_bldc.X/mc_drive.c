@@ -12,7 +12,9 @@
 #define BLANKING_PWM_PERIODS 30
 #define BEMF_FILTER_COEFF 2
 #define ADVANCE_ANGLE 0
-#define ALIGN_TIME 10000UL
+#define ALIGN_INCREMENT_TIME 50UL
+#define ALIGN_DUTY_TARGET  160
+#define ALIGN_DUTY_INCREMENT 1
 #define MIN_DUTY 50
 #define MAX_DUTY 255
 #define MIN_IN_DUTY 0
@@ -34,6 +36,7 @@ uint16_t pwm_periods = 0;
 volatile uint16_t PWM_comm = 230, cnt = 0;
 volatile uint8_t blanking = 0;
 volatile uint16_t pwm_counts = 0, zc_pwm_counts = TARGET_SPEED, adv_zc_pwm_counts;
+volatile uint8_t align_duty;
 
 struct flags sysflags;
 
@@ -64,6 +67,7 @@ void mcdrive_initStartup()
     cnt = 0;
     blanking = 0;
     pwm_counts = 0;
+    align_duty = 0;
     zc_pwm_counts = TARGET_SPEED;
     HAL_setDuty(160);
     mcdrive_trigStep();
@@ -110,10 +114,17 @@ static void mcdrive_openLoopHandler()
     if(COMMSTATE_ALIGN == sysflags.commstep)
     {
         mcdrive_trigStep();
-        if (cnt > ALIGN_TIME)
+        if (cnt > ALIGN_INCREMENT_TIME)
         {
             cnt = 0;
-            sysflags.commstep = COMMSTATE_WAITZC;
+            align_duty += ALIGN_DUTY_INCREMENT;
+            HAL_setDuty(align_duty);
+            
+            if(align_duty >= ALIGN_DUTY_TARGET)
+            {
+                sysflags.commstep = COMMSTATE_WAITZC;
+            }
+            
         }
     }
     

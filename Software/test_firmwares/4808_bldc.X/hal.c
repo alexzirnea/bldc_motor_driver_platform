@@ -1,5 +1,7 @@
 #include "hal.h"
+
 #define DELAY_CYCLES 4
+
 void HAL_setDuty(uint8_t duty)
 { 
     TCA0.SINGLE.CTRLFCLR = 0xE;//clear buffer valid
