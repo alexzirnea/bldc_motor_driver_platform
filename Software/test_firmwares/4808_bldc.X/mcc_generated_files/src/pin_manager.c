@@ -43,8 +43,8 @@ static void (*PORTA_CL_InterruptHandler)(void);
 static void (*PORTA_USER2_InterruptHandler)(void);
 static void (*PORTF_BUTTON_InterruptHandler)(void);
 static void (*PORTC_LED_RED_InterruptHandler)(void);
-static void (*PORTF_PF3_InterruptHandler)(void);
 static void (*PORTD_PD1_InterruptHandler)(void);
+static void (*PORTF_PF3_InterruptHandler)(void);
 static void (*PORTC_LED_BLUE_InterruptHandler)(void);
 static void (*PORTD_PD3_InterruptHandler)(void);
 static void (*PORTA_PA0_InterruptHandler)(void);
@@ -144,8 +144,8 @@ void PIN_MANAGER_Initialize()
     PORTA_USER2_SetInterruptHandler(PORTA_USER2_DefaultInterruptHandler);
     PORTF_BUTTON_SetInterruptHandler(PORTF_BUTTON_DefaultInterruptHandler);
     PORTC_LED_RED_SetInterruptHandler(PORTC_LED_RED_DefaultInterruptHandler);
-    PORTF_PF3_SetInterruptHandler(PORTF_PF3_DefaultInterruptHandler);
     PORTD_PD1_SetInterruptHandler(PORTD_PD1_DefaultInterruptHandler);
+    PORTF_PF3_SetInterruptHandler(PORTF_PF3_DefaultInterruptHandler);
     PORTC_LED_BLUE_SetInterruptHandler(PORTC_LED_BLUE_DefaultInterruptHandler);
     PORTD_PD3_SetInterruptHandler(PORTD_PD3_DefaultInterruptHandler);
     PORTA_PA0_SetInterruptHandler(PORTA_PA0_DefaultInterruptHandler);
@@ -331,19 +331,6 @@ void PORTC_LED_RED_DefaultInterruptHandler(void)
     // or set custom function using PORTC_LED_RED_SetInterruptHandler()
 }
 /**
-  Allows selecting an interrupt handler for PORTF_PF3 at application runtime
-*/
-void PORTF_PF3_SetInterruptHandler(void (* interruptHandler)(void)) 
-{
-    PORTF_PF3_InterruptHandler = interruptHandler;
-}
-
-void PORTF_PF3_DefaultInterruptHandler(void)
-{
-    // add your PORTF_PF3 interrupt custom code
-    // or set custom function using PORTF_PF3_SetInterruptHandler()
-}
-/**
   Allows selecting an interrupt handler for PORTD_PD1 at application runtime
 */
 void PORTD_PD1_SetInterruptHandler(void (* interruptHandler)(void)) 
@@ -355,6 +342,19 @@ void PORTD_PD1_DefaultInterruptHandler(void)
 {
     // add your PORTD_PD1 interrupt custom code
     // or set custom function using PORTD_PD1_SetInterruptHandler()
+}
+/**
+  Allows selecting an interrupt handler for PORTF_PF3 at application runtime
+*/
+void PORTF_PF3_SetInterruptHandler(void (* interruptHandler)(void)) 
+{
+    PORTF_PF3_InterruptHandler = interruptHandler;
+}
+
+void PORTF_PF3_DefaultInterruptHandler(void)
+{
+    // add your PORTF_PF3 interrupt custom code
+    // or set custom function using PORTF_PF3_SetInterruptHandler()
 }
 /**
   Allows selecting an interrupt handler for PORTC_LED_BLUE at application runtime

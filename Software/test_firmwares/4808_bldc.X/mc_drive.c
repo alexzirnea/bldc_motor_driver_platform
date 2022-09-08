@@ -10,17 +10,21 @@
 #define COMMSTATE_ALIGN 3
 
 #define BLANKING_PWM_PERIODS 30
-#define BEMF_FILTER_COEFF 2
+#define BEMF_FILTER_COEFF 4
 #define ADVANCE_ANGLE 0
 #define ALIGN_INCREMENT_TIME 50UL
-#define ALIGN_DUTY_TARGET  160
+#define ALIGN_DUTY_TARGET  120   
 #define ALIGN_DUTY_INCREMENT 1
 #define MIN_DUTY 50
 #define MAX_DUTY 255
 #define MIN_IN_DUTY 0
 #define MAX_IN_DUTY 255
+#define OPENLOOP_RAMPUP_DUTY (ALIGN_DUTY_TARGET)
+#define OPENLOOP_STEP_DECREMENT 1
 
-#define TARGET_SPEED 40
+#define CLOSEDLOOP_ZC_TIMEOUT_MULTIPLIER 16
+
+#define TARGET_SPEED 200
 
 struct flags
 {
@@ -63,13 +67,13 @@ void mcdrive_initStartup()
     sysflags.commstep = COMMSTATE_ALIGN;
     mc_step = 0;
     pwm_periods = 0;
-    PWM_comm = 230;
+    PWM_comm = 370;
     cnt = 0;
     blanking = 0;
     pwm_counts = 0;
     align_duty = 0;
     zc_pwm_counts = TARGET_SPEED;
-    HAL_setDuty(160);
+    HAL_setDuty(OPENLOOP_RAMPUP_DUTY);
     mcdrive_trigStep();
     mcdrive_enableBEMF_INT();
 }
@@ -163,7 +167,7 @@ static void mcdrive_openLoopHandler()
             {
                 mcdrive_setNextStep();
                 mcdrive_trigStep();
-                PWM_comm -= 2;
+                PWM_comm -= OPENLOOP_STEP_DECREMENT;
             }
         }
         cnt = 0;
@@ -174,7 +178,7 @@ static void mcdrive_closedLoopHandler()
 {    
     pwm_counts ++;
     
-    if(pwm_counts > (16*zc_pwm_counts))
+    if(pwm_counts > (CLOSEDLOOP_ZC_TIMEOUT_MULTIPLIER * zc_pwm_counts))
     {
         mcdrive_faultHandler();
         return;
@@ -293,37 +297,31 @@ static void mcdrive_enableBEMF_INT()
             case 0:
                 HAL_AC_selectPhase(PHASE_C);
                 HAL_setBEMF_FallingEdgeINT();
-                HAL_drive_AH_BL();
             break;           
             
             case 1:
                 HAL_AC_selectPhase(PHASE_B);
                 HAL_setBEMF_RisingEdgeINT();
-                HAL_drive_AH_CL();
             break;            
             
             case 2:
                 HAL_AC_selectPhase(PHASE_A);
                 HAL_setBEMF_FallingEdgeINT();
-                HAL_drive_BH_CL();
             break;           
             
             case 3:
                 HAL_AC_selectPhase(PHASE_C);
                 HAL_setBEMF_RisingEdgeINT();
-                HAL_drive_BH_AL();
             break;           
             
             case 4:
                 HAL_AC_selectPhase(PHASE_B);
                 HAL_setBEMF_FallingEdgeINT();
-                HAL_drive_CH_AL();
             break;          
             
             case 5:
                 HAL_AC_selectPhase(PHASE_A);
                 HAL_setBEMF_RisingEdgeINT();
-                HAL_drive_CH_BL();
             break;           
             
             default:
@@ -339,37 +337,31 @@ static void mcdrive_enableBEMF_INT()
             case 0:
                 HAL_AC_selectPhase(PHASE_C);
                 HAL_setBEMF_RisingEdgeINT();
-                HAL_drive_AH_BL();
             break;            
         
                 case 1:
                 HAL_AC_selectPhase(PHASE_B);
                 HAL_setBEMF_FallingEdgeINT();
-                HAL_drive_AH_CL();
             break;           
             
             case 2:
                 HAL_AC_selectPhase(PHASE_A);
                 HAL_setBEMF_RisingEdgeINT();
-                HAL_drive_BH_CL();
             break;           
         
             case 3:
                 HAL_AC_selectPhase(PHASE_C);
                 HAL_setBEMF_FallingEdgeINT();
-                HAL_drive_BH_AL();
             break;           
             
             case 4:
                 HAL_AC_selectPhase(PHASE_B);
                 HAL_setBEMF_RisingEdgeINT();
-                HAL_drive_CH_AL();
             break;
             
             case 5:
                 HAL_AC_selectPhase(PHASE_A);
                 HAL_setBEMF_FallingEdgeINT();
-                HAL_drive_CH_BL();
             break;         
         
             default:

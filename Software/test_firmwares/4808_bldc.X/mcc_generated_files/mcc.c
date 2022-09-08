@@ -41,8 +41,8 @@ void SYSTEM_Initialize(void)
     PIN_MANAGER_Initialize();
     BOD_Initialize();
     WDT_Initialize();
-    SLPCTRL_Initialize();
     CLKCTRL_Initialize();
+    SLPCTRL_Initialize();
     EVSYS_Initialize();
     AC0_Initialize();
     ADC0_Initialize();

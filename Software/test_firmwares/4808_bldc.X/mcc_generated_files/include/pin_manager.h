@@ -234,24 +234,6 @@
 #define LED_RED_DisableDigitalInputBuffer() do { PORTC.PIN0CTRL = (PORTC.PIN0CTRL & ~PORT_ISC_gm) | 0x4 ; } while(0)
 #define LED_RED_EnableInterruptForLowLevelSensing() do { PORTC.PIN0CTRL = (PORTC.PIN0CTRL & ~PORT_ISC_gm) | 0x5 ; } while(0)
 
-//get/set PF3 aliases
-#define PF3_SetHigh() do { PORTF_OUTSET = 0x8; } while(0)
-#define PF3_SetLow() do { PORTF_OUTCLR = 0x8; } while(0)
-#define PF3_Toggle() do { PORTF_OUTTGL = 0x8; } while(0)
-#define PF3_GetValue() (VPORTF.IN & (0x1 << 3))
-#define PF3_SetDigitalInput() do { PORTF_DIRCLR = 0x8; } while(0)
-#define PF3_SetDigitalOutput() do { PORTF_DIRSET = 0x8; } while(0)
-#define PF3_SetPullUp() do { PORTF_PIN3CTRL  |= PORT_PULLUPEN_bm; } while(0)
-#define PF3_ResetPullUp() do { PORTF_PIN3CTRL  &= ~PORT_PULLUPEN_bm; } while(0)
-#define PF3_SetInverted() do { PORTF_PIN3CTRL  |= PORT_INVEN_bm; } while(0)
-#define PF3_ResetInverted() do { PORTF_PIN3CTRL  &= ~PORT_INVEN_bm; } while(0)
-#define PF3_DisableInterruptOnChange() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x0 ; } while(0)
-#define PF3_EnableInterruptForBothEdges() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x1 ; } while(0)
-#define PF3_EnableInterruptForRisingEdge() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x2 ; } while(0)
-#define PF3_EnableInterruptForFallingEdge() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x3 ; } while(0)
-#define PF3_DisableDigitalInputBuffer() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x4 ; } while(0)
-#define PF3_EnableInterruptForLowLevelSensing() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x5 ; } while(0)
-
 //get/set PD1 aliases
 #define PD1_SetHigh() do { PORTD_OUTSET = 0x2; } while(0)
 #define PD1_SetLow() do { PORTD_OUTCLR = 0x2; } while(0)
@@ -269,6 +251,24 @@
 #define PD1_EnableInterruptForFallingEdge() do { PORTD.PIN1CTRL = (PORTD.PIN1CTRL & ~PORT_ISC_gm) | 0x3 ; } while(0)
 #define PD1_DisableDigitalInputBuffer() do { PORTD.PIN1CTRL = (PORTD.PIN1CTRL & ~PORT_ISC_gm) | 0x4 ; } while(0)
 #define PD1_EnableInterruptForLowLevelSensing() do { PORTD.PIN1CTRL = (PORTD.PIN1CTRL & ~PORT_ISC_gm) | 0x5 ; } while(0)
+
+//get/set PF3 aliases
+#define PF3_SetHigh() do { PORTF_OUTSET = 0x8; } while(0)
+#define PF3_SetLow() do { PORTF_OUTCLR = 0x8; } while(0)
+#define PF3_Toggle() do { PORTF_OUTTGL = 0x8; } while(0)
+#define PF3_GetValue() (VPORTF.IN & (0x1 << 3))
+#define PF3_SetDigitalInput() do { PORTF_DIRCLR = 0x8; } while(0)
+#define PF3_SetDigitalOutput() do { PORTF_DIRSET = 0x8; } while(0)
+#define PF3_SetPullUp() do { PORTF_PIN3CTRL  |= PORT_PULLUPEN_bm; } while(0)
+#define PF3_ResetPullUp() do { PORTF_PIN3CTRL  &= ~PORT_PULLUPEN_bm; } while(0)
+#define PF3_SetInverted() do { PORTF_PIN3CTRL  |= PORT_INVEN_bm; } while(0)
+#define PF3_ResetInverted() do { PORTF_PIN3CTRL  &= ~PORT_INVEN_bm; } while(0)
+#define PF3_DisableInterruptOnChange() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x0 ; } while(0)
+#define PF3_EnableInterruptForBothEdges() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x1 ; } while(0)
+#define PF3_EnableInterruptForRisingEdge() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x2 ; } while(0)
+#define PF3_EnableInterruptForFallingEdge() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x3 ; } while(0)
+#define PF3_DisableDigitalInputBuffer() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x4 ; } while(0)
+#define PF3_EnableInterruptForLowLevelSensing() do { PORTF.PIN3CTRL = (PORTF.PIN3CTRL & ~PORT_ISC_gm) | 0x5 ; } while(0)
 
 //get/set LED_BLUE aliases
 #define LED_BLUE_SetHigh() do { PORTC_OUTSET = 0x4; } while(0)
@@ -401,10 +401,10 @@ void PORTF_BUTTON_DefaultInterruptHandler(void);
 void PORTF_BUTTON_SetInterruptHandler(void (* interruptHandler)(void)) ;
 void PORTC_LED_RED_DefaultInterruptHandler(void);
 void PORTC_LED_RED_SetInterruptHandler(void (* interruptHandler)(void)) ;
-void PORTF_PF3_DefaultInterruptHandler(void);
-void PORTF_PF3_SetInterruptHandler(void (* interruptHandler)(void)) ;
 void PORTD_PD1_DefaultInterruptHandler(void);
 void PORTD_PD1_SetInterruptHandler(void (* interruptHandler)(void)) ;
+void PORTF_PF3_DefaultInterruptHandler(void);
+void PORTF_PF3_SetInterruptHandler(void (* interruptHandler)(void)) ;
 void PORTC_LED_BLUE_DefaultInterruptHandler(void);
 void PORTC_LED_BLUE_SetInterruptHandler(void (* interruptHandler)(void)) ;
 void PORTD_PD3_DefaultInterruptHandler(void);

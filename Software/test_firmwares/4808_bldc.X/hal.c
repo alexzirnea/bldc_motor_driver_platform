@@ -1,7 +1,5 @@
 #include "hal.h"
 
-#define DELAY_CYCLES 4
-
 void HAL_setDuty(uint8_t duty)
 { 
     TCA0.SINGLE.CTRLFCLR = 0xE;//clear buffer valid
@@ -15,7 +13,6 @@ void HAL_drive_AH_BL()
 {
     PORTA.OUTCLR = 0x38;//clear all three outputs for sanity
     TCA0.SINGLE.CTRLB = 0x7;
-    for(uint8_t i=0; i<=DELAY_CYCLES;i++);
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
     TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP0EN_bm | 0x7;
     BL_SetHigh();
@@ -25,7 +22,6 @@ void HAL_drive_AH_CL()
 {
     PORTA.OUTCLR = 0x38;//clear all three outputs for sanity
     TCA0.SINGLE.CTRLB = 0x7;
-    for(uint8_t i=0; i<=DELAY_CYCLES;i++);
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
     TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP0EN_bm | 0x7;
     CL_SetHigh();
@@ -35,7 +31,6 @@ void HAL_drive_BH_CL()
 {
     PORTA.OUTCLR = 0x38;//clear all three outputs for sanity
     TCA0.SINGLE.CTRLB = 0x7;
-    for(uint8_t i=0; i<=DELAY_CYCLES;i++);
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
     TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP1EN_bm | 0x7;
     CL_SetHigh();
@@ -45,7 +40,6 @@ void HAL_drive_BH_AL()
 {
     PORTA.OUTCLR = 0x38;//clear all three outputs for sanity
     TCA0.SINGLE.CTRLB = 0x7;
-    for(uint8_t i=0; i<=DELAY_CYCLES;i++);
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
     TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP1EN_bm | 0x7;
     AL_SetHigh();
@@ -55,7 +49,6 @@ void HAL_drive_CH_AL()
 {
     PORTA.OUTCLR = 0x38;//clear all three outputs for sanity
     TCA0.SINGLE.CTRLB = 0x7;
-    for(uint8_t i=0; i<=DELAY_CYCLES;i++);
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
     TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP2EN_bm | 0x7;
     AL_SetHigh(); 
@@ -65,7 +58,6 @@ void HAL_drive_CH_BL()
 {
     PORTA.OUTCLR = 0x38;//clear all three outputs for sanity
     TCA0.SINGLE.CTRLB = 0x7;
-    for(uint8_t i=0; i<=DELAY_CYCLES;i++);
     //Hardcoded 0x7 value for faster access; eliminates the need of RMW
     TCA0.SINGLE.CTRLB = TCA_SINGLE_CMP2EN_bm | 0x7;
     BL_SetHigh();

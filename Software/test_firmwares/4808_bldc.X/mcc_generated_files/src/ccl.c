@@ -105,7 +105,7 @@ int8_t CCL_Initialize()
 	CCL.SEQCTRL1 = 0x00;
 
     //Truth 0
-	CCL.TRUTH0 = 0xAA;
+	CCL.TRUTH0 = 0xA2;
 
     //Truth 1
 	CCL.TRUTH1 = 0x00;
